@@ -19,7 +19,7 @@ export default withRouter(class Index extends Component {
                     <meta name="publisher" content="officialgates (www.officialgates.com)" />
                 </Head>
 
-              <p>Body Of the content</p>
+              <p>Body Of the content test tset </p>
             </div>
         )
     }
