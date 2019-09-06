@@ -20,6 +20,7 @@ export default withRouter(class Index extends Component {
                 </Head>
 
               <p>Body Of the content new new</p>
+              <p>Body Of the content test tset </p>
             </div>
         )
     }
