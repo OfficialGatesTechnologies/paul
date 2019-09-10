@@ -1,0 +1,408 @@
+@font-face {
+    font-family: 'Palanquin';
+    src: url('../static/fonts/palanquin-thin-webfont.woff2') format('woff2'),
+         url('../static/fonts/palanquin-thin-webfont.woff') format('woff');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Palanquin';
+    src: url('../static/fonts/palanquin-extralight-webfont.woff2') format('woff2'),
+         url('../static/fonts/palanquin-extralight-webfont.woff') format('woff');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Palanquin';
+    src: url('../static/fonts/palanquin-light-webfont.woff2') format('woff2'),
+         url('../static/fonts/palanquin-light-webfont.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Palanquin';
+    src: url('../static/fonts/palanquin-regular-webfont.woff2') format('woff2'),
+         url('../static/fonts/palanquin-regular-webfont.woff') format('woff');
+    font-weight: 400;
+
+}
+@font-face {
+    font-family: 'Palanquin';
+    src: url('../static/fonts/palanquin-medium-webfont.woff2') format('woff2'),
+         url('../static/fonts/palanquin-medium-webfont.woff') format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Palanquin';
+    src: url('../static/fonts/palanquin-semibold-webfont.woff2') format('woff2'),
+         url('../static/fonts/palanquin-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Palanquin';
+    src: url('../static/fonts/palanquin-bold-webfont.woff2') format('woff2'),
+         url('../static/fonts/palanquin-bold-webfont.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../static/fonts/ptsans-regular-webfont.woff2') format('woff2'),
+         url('../static/fonts/ptsans-regular-webfont.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../static/fonts/ptsans-bold-webfont.woff2') format('woff2'),
+         url('../static/fonts/ptsans-bold-webfont.woff') format('woff');
+    font-weight: 700;
+}
+
+
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: #394161;
+    /* font-family: 'Palanquin', sans-serif; */
+    
+}
+
+.header-wrap {
+    padding: 15px 0;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.04);
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+.p-0 {
+    padding: 0;
+}
+.py-5 {
+    padding: 50px 0;
+}
+.logo a {
+    display: inline-block;
+}
+.header-wrap .navbar-link:not(.is-arrowless)::after {
+    border-color: #353067;
+    font-size: 11px;
+    border-width: 2px;
+    margin-top: -3px;
+    right: 25px;
+}
+
+.theme-color {
+    color: #fff !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 7px 28px;
+    border-radius: 30px;
+    transition: 350ms ease-in-out;
+    position: relative;
+    background: transparent;
+    overflow: hidden;
+}
+.theme-color:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    background: linear-gradient(-50deg, rgba(92,131,227,1) 0%, rgba(94,85,215,1) 100%);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: 350ms ease-in-out;
+}
+.theme-color:after
+{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    background: linear-gradient(-50deg,rgba(94,85,215,1) 0%, rgba(92,131,227,1) 100%);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: 350ms ease-in-out;
+    opacity: 0;
+}
+.theme-color:hover:after {
+    opacity: 1;
+}
+
+.main-wrap {
+    padding-top: 82px;
+}
+.ttl-head {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.ttl-p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #5d6685;
+}
+.mx-610
+{
+    max-width: 610px;
+    margin: 0 auto;
+}
+.mx-410
+{
+    max-width: 410px;
+    margin: 0 auto;
+}
+.w-deed {
+    position: relative;
+}
+.w-deed:before {
+    position: absolute;
+    content: '';
+    background: #fcfdff;
+    height: 60%;
+    left: 0;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+.w-deed:after {
+    position: absolute;
+    content: '';
+    background: #f4f6ff;
+    height: 40%;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+}
+
+.w-deed-list {
+    max-width: 925px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.w-deed-list-in {
+    background: #fff;
+    padding: 50px 20px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.025);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.w-deed-list-in:hover {
+    background: linear-gradient(-50deg, rgba(92,131,227,1) 0%, rgba(94,85,215,1) 100%);
+    color: #fff !important;
+}
+
+.w-deed-list-in >span {
+    background: #f4f6ff;
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+    line-height: 90px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 20px;
+}
+.w-deed-list-in h3 {
+    font-size: 27px;
+    font-weight: 900;
+    margin-bottom: 7px;
+    line-height: 20px;
+}
+.w-deed-list-in h3 >span {
+    color: #ffa34a;
+}
+.w-deed-list-in h5 {
+    font-size: 14px;
+}
+.dia {
+    margin: 0px 0 50px;
+}
+.mx-1000 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.por-count-wrap {
+    background: #fcfdff;
+}
+.pro-count-in {
+    background: #fff;
+    height: 137px;
+    width: 137px;
+    margin: 0 auto;
+    border-radius: 100px;
+    line-height: 137px;
+    border: 1px solid #dfe1e7;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.03);
+}
+.pro-count-in .pro-cunt {
+    font-size: 38px;
+    font-weight: 900;
+}
+.pro-count-in .pro-cunt-plus {
+    font-size: 38px;
+    color: #ffa34a;
+    font-weight: 500;
+}
+.por-count h5 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.startup-grid {
+    background: #fafbfe;
+}
+.startup-grid-in {
+    position: relative;
+    min-height: 90px;
+    margin: 20px 0;
+}
+.startup-grid-img {
+    position: absolute;
+    left: 0;
+    background: #fff;
+    width: 96px;
+    height: 86px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.02);
+    display: flex;
+    justify-content: center;
+}
+.startup-grid-cnt {
+    padding-left: 120px;
+}
+.startup-grid-cnt h4
+{
+    font-family: 'Palanquin', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.startup-grid-cnt p
+{
+    color: #5d6685;
+    font-size: 13px
+}
+#pack-tab .tabs:not(:last-child) {
+    margin-bottom: 0;
+}
+  
+#pack-tab .pack-tab-content {
+    padding: 1rem;
+    display: none;
+}
+  
+#pack-tab .pack-tab-content.is-active {
+    display: block;
+}
+
+  #pack-tab {
+    margin-top: 40px;
+}
+.pack-tabs ul {
+    border-bottom: 0;
+}
+.pack-tabs ul li {
+    margin: 0 25px;
+}
+.pack-tabs ul li a {
+    border-bottom: 0;
+    display: block;
+    transition: 350ms ease-in-out;
+}
+.pack-tab-img {
+    display: flex;
+    height: 57px;
+    width: 57px;
+    border: 1px solid #abb7ea;
+    line-height: 57px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.pack-tab-img img,
+.pack-tab-img svg,
+.pack-tab-img svg path
+{
+    transition: 350ms ease-in-out;
+}
+.pack-tabs ul li a:hover .pack-tab-img svg path {
+    fill: #fff;
+}
+.pack-tab-img:before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(-50deg, rgba(92,131,227,1) 0%, rgba(94,85,215,1) 100%);
+    opacity: 0;
+    transition: 350ms ease-in-out;
+    z-index: -1;
+}
+.pack-tabs ul li a:hover .pack-tab-img:before {
+    background: linear-gradient(-50deg, rgba(92,131,227,1) 0%, rgba(94,85,215,1) 100%);
+    opacity: 1;
+    transition: 350ms ease-in-out;
+}
+.pack-tabs ul li.is-active a .pack-tab-img
+{
+    background: linear-gradient(-50deg, rgba(92,131,227,1) 0%, rgba(94,85,215,1) 100%);
+    opacity: 1;
+}
+.pack-tabs ul li.is-active a .pack-tab-img svg path {
+    fill: #fff;
+}
+.pack-tabs ul li.is-active a,
+.pack-tabs ul li a:hover
+{
+    color: #5c83e3;
+}
+.pack-tab-caps {
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 10px;
+}
+.mx-640 {
+    max-width: 640px;
+    margin: 0 auto;
+}
+.pack-tab-content-in {
+    padding: 30px 25px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin-top: 20px !important;
+}
+.pack-tab-content-in p {
+    font-size: 13px;
+    line-height: 20px;
+}
+.pack-tab-content-in a {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #5868ff;
+    margin-top: 20px;
+    transition: 350ms ease-in-out;
+}
+.pack-tab-content-in a:hover
+{
+    color: #ffa34a
+}
+.startup-sec.attain {
+    background: #fcfdff;
+}
+.attain-dia   
+{
+    padding-top: 50px;
+}

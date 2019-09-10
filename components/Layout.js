@@ -19,9 +19,9 @@ export default class Layout extends Component {
         return (
             <div>
                 <Loader loading={this.state.loading} />
-                <div className='is-hidden-touch'>
+                
                    <Header/>
-                </div>   
+                
                     {this.props.children}
             </div>
         )

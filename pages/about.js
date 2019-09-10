@@ -2,10 +2,6 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
 import Banner from '../components/banner';
-import Win_deeds from '../components/win-deeds';
-import Startup_sec from '../components/start-up-sec';
-import Pack_service from '../components/pack-service';
-import Attain from '../components/attain';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
 import Link from 'next/link'
@@ -25,13 +21,13 @@ export default withRouter(class Index extends Component {
                     <meta name="publisher" content="officialgates (www.officialgates.com)" />
                 </Head>
 
-                <div className="main-wrap">
-                    <Banner/>
-                    <Win_deeds/>
-                    <Startup_sec/>
-                    <Pack_service/>
-                    <Attain/>
-                </div>
+                 
+                 
+                    <div className="container">
+  <div className="notification">
+    This About us is <strong>centered</strong> on desktop.
+  </div>
+</div>
             </div>
         )
     }
