@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/styles.scss';
 import Link from 'next/link';
 import { withRouter } from 'next/router';
+
 import $ from 'jquery';
 export default withRouter(class Header extends Component {
 
