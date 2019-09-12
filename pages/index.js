@@ -30,7 +30,7 @@ export default withRouter(class Index extends Component {
                     <meta name="creator" content="officialgates (www.officialgates.com)" />
                     <meta name="publisher" content="officialgates (www.officialgates.com)" />
                 </Head>
-
+ 
                 <div className="main-wrap">
                     <Banner/>
                     <Win_deeds/>
@@ -44,6 +44,7 @@ export default withRouter(class Index extends Component {
                      <Testimonials/>
                      <Con_form/>
                 </div>
+ 
             </div>
         )
     }
