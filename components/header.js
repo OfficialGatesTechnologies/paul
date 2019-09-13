@@ -18,18 +18,11 @@ export default withRouter(class Header extends Component {
     render() {
 
         return (
-
+            
             <div className="header-wrap py-3">
             <div className="container">
                  <div className="columns">
-                    <div className="logo column">
-                        <Link href="#">
-                        <a title="Logo">
-                        <img src="../static/images/logo.png" alt="Logo"/>
-                        </a>
-                        </Link>
-                    </div>
-                    <div className="column is-10">
+                    <div className="column is-12">
                         <Menu/>
                     </div>
                  </div>

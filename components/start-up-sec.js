@@ -53,7 +53,7 @@ export default withRouter(class Header extends Component {
 
             <div>
                 <section className="startup-sec">
-                    <div className="sec-ttl has-text-centered py-5">
+                    <div className="sec-ttl sec-ttl-01 has-text-centered py-5">
                         <h1 className="ttl-head">Passion To Drive Small Startups Into Unicorns Comes With OG!</h1>
                         <p className="ttl-p mx-410">We develop apps which get trending & multiply your ROI, turn your 
 customers delighted & make you Brand Visible.</p>
@@ -66,8 +66,8 @@ customers delighted & make you Brand Visible.</p>
                     <div className="por-count-wrap py-5">
                         <div className="container">
                             <div className="mx-1000">
-                                <div className="columns is-mobile" id="counter">
-                                    <div className="column">
+                                <div className="columns is-multiline" id="counter">
+                                    <div className="column is-4-tablet">
                                         <div className="por-count has-text-centered">
                                             <div className="pro-count-in">
                                                 <h4><span className="counter-value pro-cunt" data-count="60">0</span> <span className="pro-cunt-plus">+</span></h4>
@@ -75,7 +75,7 @@ customers delighted & make you Brand Visible.</p>
                                             <h5>Apps Featured on AppStore</h5>
                                         </div>
                                     </div>
-                                    <div className="column">
+                                    <div className="column is-4-tablet">
                                         <div className="por-count has-text-centered">
                                             <div className="pro-count-in">
                                             <h4><span className="counter-value pro-cunt" data-count="15">0</span> <span className="pro-cunt-plus">+</span></h4> 
@@ -83,7 +83,7 @@ customers delighted & make you Brand Visible.</p>
                                             <h5>Apps With 1M+ Downloads</h5>
                                         </div>
                                     </div>
-                                    <div className="column">
+                                    <div className="column is-4-tablet">
                                         <div className="por-count has-text-centered">
                                             <div className="pro-count-in">
                                             <h4><span className="counter-value pro-cunt" data-count="4.5">0</span> <span className="pro-cunt-plus">+</span></h4> 
@@ -98,8 +98,8 @@ customers delighted & make you Brand Visible.</p>
                     <div className="startup-grid py-5">
                         <div className="container">
                             <div className="mx-1000">
-                                <div className="columns is-mobile">
-                                    <div className="column is-6">
+                                <div className="columns is-multiline">
+                                    <div className="column is-6-tablet">
                                         <div className="startup-grid-in">
                                             <div className="startup-grid-img">
                                             <img src="../static/images/icons/st-01.svg" alt="image"/>
@@ -110,7 +110,7 @@ customers delighted & make you Brand Visible.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="column is-6">
+                                    <div className="column is-6-tablet">
                                         <div className="startup-grid-in">
                                             <div className="startup-grid-img">
                                             <img src="../static/images/icons/st-02.svg" alt="image"/>
@@ -122,8 +122,8 @@ customers delighted & make you Brand Visible.</p>
                                         </div>
                                     </div>
                                     </div>
-                                    <div className="columns is-mobile">
-                                    <div className="column is-6">
+                                    <div className="columns is-multiline">
+                                    <div className="column is-6-tablet">
                                         <div className="startup-grid-in">
                                             <div className="startup-grid-img">
                                             <img src="../static/images/icons/st-03.svg" alt="image"/>
@@ -134,7 +134,7 @@ customers delighted & make you Brand Visible.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="column is-6">
+                                    <div className="column is-6-tablet">
                                         <div className="startup-grid-in">
                                             <div className="startup-grid-img">
                                             <img src="../static/images/icons/st-04.svg" alt="image"/>

@@ -31,8 +31,8 @@ import { withRouter } from 'next/router';
     <AliceCarousel responsive={this.state.mainBannerItems} mouseDragEnabled  buttonsDisabled ={true}>
     
         <div className="banner-items columns">
-            <div className="banner-img column is-7"><img src="../static/images/banner/banner-img-01.png"/></div>
-            <div className="banner-txt column is-5">
+            <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-three-fifths-desktop"><img src="../static/images/banner/banner-img-01.png"/></div>
+            <div className="banner-txt column has-text-centered-mobile">
                 <h5>DIGITAL</h5>
                 <h1>MARKETING</h1>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some look even slightly believable.</p>
@@ -40,8 +40,8 @@ import { withRouter } from 'next/router';
             </div>
             </div>
             <div className="banner-items columns">
-            <div className="banner-img column is-7"><img src="../static/images/banner/banner-img-01.png"/></div>
-            <div className="banner-txt column is-5">
+            <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-three-fifths-desktop"><img src="../static/images/banner/banner-img-01.png"/></div>
+            <div className="banner-txt column has-text-centered-mobile">
                 <h5>DIGITAL</h5>
                 <h1>MARKETING</h1>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some look even slightly believable.</p>
@@ -49,8 +49,8 @@ import { withRouter } from 'next/router';
             </div>
             </div>
             <div className="banner-items columns">
-            <div className="banner-img column is-7"><img src="../static/images/banner/banner-img-01.png"/></div>
-            <div className="banner-txt column is-5">
+            <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-three-fifths-desktop"><img src="../static/images/banner/banner-img-01.png"/></div>
+            <div className="banner-txt column has-text-centered-mobile">
                 <h5>DIGITAL</h5>
                 <h1>MARKETING</h1>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some look even slightly believable.</p>

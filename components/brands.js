@@ -10,7 +10,8 @@ export default withRouter(class Header extends Component {
         super(props);
         this.state = {
             brandsItems : {
-                0: { items: 4 },
+                575: { items: 3 },
+                768: { items: 4 },
               }
         }
     }

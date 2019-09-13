@@ -31,8 +31,8 @@ import { withRouter } from 'next/router';
     <AliceCarousel responsive={this.state.ourWork} mouseDragEnabled  buttonsDisabled ={true}>
     
         <div className="banner-items columns">
-            <div className="banner-img column is-5"><img src="../static/images/others/work-01.png"/></div>
-            <div className="banner-txt our-work-txt column is-7">
+            <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-two-fifths-desktop"><img src="../static/images/others/work-01.png"/></div>
+            <div className="banner-txt our-work-txt column has-text-centered-mobile">
                 <div className="o-wk-logo">
                     <div className="o-wk-logo-img">
                         <img src="../static/images/others/work-logo-01.png"/>
@@ -64,8 +64,8 @@ Real Estate, Bus booking.</p>
             </div>
             </div>
             <div className="banner-items columns">
-            <div className="banner-img column is-5"><img src="../static/images/others/work-01.png"/></div>
-            <div className="banner-txt our-work-txt column is-7">
+            <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-two-fifths-desktop"><img src="../static/images/others/work-01.png"/></div>
+            <div className="banner-txt our-work-txt column has-text-centered-mobile">
                 <div className="o-wk-logo">
                     <div className="o-wk-logo-img">
                         <img src="../static/images/others/work-logo-01.png"/>
@@ -97,8 +97,8 @@ Real Estate, Bus booking.</p>
             </div>
             </div>
             <div className="banner-items columns">
-            <div className="banner-img column is-5"><img src="../static/images/others/work-01.png"/></div>
-            <div className="banner-txt our-work-txt column is-7">
+            <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-two-fifths-desktop"><img src="../static/images/others/work-01.png"/></div>
+            <div className="banner-txt our-work-txt column has-text-centered-mobile">
                 <div className="o-wk-logo">
                     <div className="o-wk-logo-img">
                         <img src="../static/images/others/work-logo-01.png"/>

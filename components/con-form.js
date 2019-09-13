@@ -80,7 +80,7 @@ technology and has led us to establish success stories consecutively.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="has-text-centered">
+                            <div className="con-frm-btn has-text-centered">
                                 <Link href=""><a className="theme-color ban-theme-btn">Submit Request</a></Link>
                             </div>
                         </div>

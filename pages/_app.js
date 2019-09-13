@@ -29,7 +29,7 @@ export default class MyApp extends App {
       <Container>        
         <Layout/>
         <Component {...pageProps} />
-         <Footer/>
+          <Footer/> 
       </Container>
       
     );

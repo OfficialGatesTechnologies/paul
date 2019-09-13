@@ -37,12 +37,11 @@ export default withRouter(class Index extends Component {
                     <Startup_sec/>
                     <Our_rec/>
                     <Our_work/>
-                    <Pack_service/>
                     <Pack_service_01/>
                     <Attain/>
                     <Brands/>
-                     <Testimonials/>
-                     <Con_form/>
+                    <Testimonials/>
+                    <Con_form/>
                 </div>
  
             </div>
