@@ -40,7 +40,7 @@ import { withRouter } from 'next/router';
             </div>
             </div>
             <div className="banner-items columns">
-            <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-three-fifths-desktop"><img src="../static/images/banner/banner-img-01.png"/></div>
+            <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-three-fifths-desktop"><img src="../static/images/banner/banner-img-03.png"/></div>
             <div className="banner-txt column has-text-centered-mobile">
                 <h5>DIGITAL</h5>
                 <h1>MARKETING</h1>
@@ -49,7 +49,7 @@ import { withRouter } from 'next/router';
             </div>
             </div>
             <div className="banner-items columns">
-            <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-three-fifths-desktop"><img src="../static/images/banner/banner-img-01.png"/></div>
+            <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-three-fifths-desktop"><img src="../static/images/banner/banner-img-02.png"/></div>
             <div className="banner-txt column has-text-centered-mobile">
                 <h5>DIGITAL</h5>
                 <h1>MARKETING</h1>

@@ -1,168 +1,90 @@
 import React, { Component } from 'react';
 import '../styles/styles.scss';
- 
 import Link from 'next/link';
+import { render } from 'react-dom';
+import Tabs from 'react-responsive-tabs';
+ 
 import { withRouter } from 'next/router';
 import ReactSVG from 'react-svg';
- 
+import renderHTML from 'react-render-html';
 export default withRouter(class Header extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-
             tabItems: [
                 {
-                    key:0,
+                  
                     title:'Mobile Apps',
                     image:'../static/images/icons/tab-i-01.svg',
-                    tabContent:"It is a long established fact that a reader will be distracted by the readable con",
-                    activeClass:'',
+                    tabContent:"In the age of Smartphones, mobile apps have taken an immortal place & RipenApps provides the best services that excel in delivering client-centric & highly engaging custom mobile solutions as our team believes in innovativeness, uniqueness & creativeness.",
                 },
                 {
-                    key:1,
                     title:'Wearable', 
                     image:'../static/images/icons/tab-i-02.svg',
-                    tabContent:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'",
-
+                    tabContent:"Our continuous research and learning in the field of Wearable Technology bags us a tag of top notch wearable app development company with a target to extend the digital experience beyond Mobile Devices to Smart Watches & TV’s.",
+                },
+                {
+                    title:'Web', 
+                    image:'../static/images/icons/tab-i-03.svg',
+                    tabContent:"With the team of most creative & innovative website designers as well as canny developers comes the vast experience of knowledge in the zone of website development that gives streamline business solutions to every sort of industry.",
+                },
+                {
+                    title:'IOT', 
+                    image:'../static/images/icons/tab-i-04.svg',
+                    tabContent:"In today’s era of technology, IoT emerges as the market disrupter. Keeping an eye on the same our team of inquisitive innovators left no stone unturned to offer feature-rich IoT apps development services in light of bespoke needs of customers from various industry verticals.",
+                },
+                {
+                    title:'Beacon', 
+                    image:'../static/images/icons/tab-i-05.svg',
+                    tabContent:"Moving one step ahead with traditional mobile app development approach, our team has extra edge of experience in new technologies like iBeacon and BLE which gives add-ons to send customers highly contextual, hyper-local, meaningful messages and ads on their Smartphones.",
+                },
+                {
+                    title:'UI / UX', 
+                    image:'../static/images/icons/tab-i-06.svg',
+                    tabContent:"We, at RipenApps, have the knowledge about the market requirements and therefore we design everything in a manner that it stimulates growth for your business. Our creativity to engage user experience in mobile apps and websites makes us a great choice across different platforms.",
                 }
         ]
-            
         }
     }
-    
     componentDidMount = () => {
-
-         
-
     
     }
-    changeTab = (e, items) => {
-       
+    GenerateSVG = (image,title) => {
+        return <> <div className="tab-top"> <span className="tab-icon"><ReactSVG src={image} /></span> <p>{title}</p> </div></>;
+    }
+    getTabs = () => {
+        return this.state.tabItems.map((president, index) => ({
+            title: this.GenerateSVG(president.image,president.title),
+            getContent: () => renderHTML(president.tabContent), 
+            /* Optional parameters */
+            key: index,
+            tabClassName: 'tab',
+            panelClassName: 'panel',
+          }));
     }
     
     render() {
-        var callback = function(key){
- 
-        }
+
         return (
 
             <div>
                 <section className="startup-sec py-5">
-                    <div className="sec-ttl has-text-centered">
-                        <h1 className="ttl-head">Package Of Services Which Accomplish Every Business Need</h1>
-                        <p className="ttl-p mx-610">Work reflects the brand, the services which we equip comes from the brilliance of the 
+                <div className="sec-ttl has-text-centered">
+                    <h1 className="ttl-head">Package Of Services Which Accomplish Every Business Need</h1>
+                    <p className="ttl-p mx-610">Work reflects the brand, the services which we equip comes from the brilliance of the 
 team which turns our viewers into elated customers.</p>
+                </div>
+                <div className="container">
+                <div className="mx-1000">
+                    <div className="pack-tab has-text-centered">
+                        <Tabs items={this.getTabs()} />
                     </div>
-                    <div className="container">
-                        <div className="has-text-centered">
-                        <div id="pack-tab">
-                            <div className="tabs pack-tabs is-centered">
-
-          
-
-
-                                <ul>
-
-                                    {
-                                        this.state.tabItems.map(item => 
-                                         <li key={item.key}>
-                                            <a>
-                                              <span className="pack-tab-img">
-                                                <ReactSVG src={item.image} />
-                                              </span> 
-                                              <span className="pack-tab-caps">{item.title}</span>
-                                            </a>
-                                        </li>)
-                                    }
-                               
-                                <li>
-                                    <a>
-                                        <span className="pack-tab-img">
-                                        <ReactSVG src="../static/images/icons/tab-i-02.svg" />
-                                      </span> 
-                                        <span className="pack-tab-caps">Wearable</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <span className="pack-tab-img">
-                                        <ReactSVG src="../static/images/icons/tab-i-03.svg" />
-                                     
-                                            </span> 
-                                        <span className="pack-tab-caps">Web</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <span className="pack-tab-img"><img className="svg" src="../static/images/icons/tab-i-04.svg" alt="i"/></span> 
-                                        <span className="pack-tab-caps">IOT</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <span className="pack-tab-img"><img className="svg" src="../static/images/icons/tab-i-05.svg" alt="i"/></span> 
-                                        <span className="pack-tab-caps">Beacon</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <span className="pack-tab-img"><img className="svg" src="../static/images/icons/tab-i-06.svg" alt="i"/></span> 
-                                        <span className="pack-tab-caps">UI / UX</span>
-                                    </a>
-                                </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <section className="pack-tab-content">
-                                <div className="pack-tab-content-in mx-640">
-                                        <p>With the team of most creative & innovative website designers as well as canny developers comes the vast experience of knowledge in the zone of website development that gives streamline business solutions to every sort of industry.</p>
-                                        <Link href="#"><a>VIEW MORE</a></Link>
-                                    </div>
-                                </section>
-                                <section className="pack-tab-content">
-                                <div className="pack-tab-content-in mx-640">
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'.</p>
-                                        <Link href="#"><a>VIEW MORE</a></Link>
-                                    </div>
-                                </section>
-                                <section className="pack-tab-content">
-                                <div className="pack-tab-content-in mx-640">
-                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
-                                        <Link href="#"><a>VIEW MORE</a></Link>
-                                    </div>
-                                </section>
-                                <section className="pack-tab-content">
-                                <div className="pack-tab-content-in mx-640">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                                        <Link href="#"><a>VIEW MORE</a></Link>
-                                    </div>
-                                </section>
-                                <section className="pack-tab-content">
-                                <div className="pack-tab-content-in mx-640">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                        <Link href="#"><a>VIEW MORE</a></Link>
-                                    </div>
-                                </section>
-                                <section className="pack-tab-content">
-                                <div className="pack-tab-content-in mx-640">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                        <Link href="#"><a>VIEW MORE</a></Link>
-                                    </div>
-                                </section>
-                            </div>
-                            </div>
-                        </div>
                     </div>
+                </div>
                 </section>
+
             </div>
         )
     }
 })
-
-
-
-
-
-
-

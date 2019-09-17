@@ -152,9 +152,6 @@
     .startup-sec .sec-ttl.sec-ttl-01 {
         padding: 50px 20px;
     }
-    .sec-ttl {
-        padding: 0 20px;
-    }
     .w-deed-list-in {
         max-width: 250px;
         margin: 0 auto;
@@ -175,6 +172,30 @@
     }
 }
 @media (max-width: 575px) {
+    .com-res h5 {
+        font-size: 16px;
+}
+    .py-m-3 {
+        padding: 30px 0;
+    }
+    .pb-m-2 {
+        padding-bottom: 20px;
+    }
+    .page-main-cnt h4 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .circle-ripple {
+        height: 70px;
+        width: 70px;
+    }
+    .circle-ripple img, .circle-ripple svg {
+        max-height: 40px;
+        max-width: 40px;
+    }
+    .inner-banner-cnt h4 {
+        font-size: 20px;
+    }
     .brand-img-wrap {
         max-width: 200px;
         margin: 5px auto 5px;

@@ -25,7 +25,7 @@ export default withRouter(class Header extends Component {
             <div>
             <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <Link href="#"><a className="logo navbar-item"><img src="../static/images/logo.png" alt="Logo"/></a></Link>
+                <Link href="index"><a className="logo navbar-item"><img src="../static/images/logo.png" alt="Logo"/></a></Link>
 
                 <a role="button" className="navbar-burger burger m-icon" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
@@ -37,14 +37,42 @@ export default withRouter(class Header extends Component {
             <div className="navbar-end">
                 <div id="navbarBasicExample" className="navbar-menu">
                     <div className="m-scroll navbar-start">
+
                     <div className="navbar-item has-dropdown is-hoverable">
                         <Link href="#"><a className="navbar-link">Services</a></Link>
                         <div className="navbar-dropdown">
-                        <Link href="#"><a className="navbar-item">Full Stack Development</a></Link>
-                        <Link href="#"><a className="navbar-item">Mobile Apps Development</a></Link>
-                        <Link href="#"><a className="navbar-item">Finance and Accounting</a></Link>
+                                <div className="nested navbar-item dropdown">
+
+                                    <div className="dropdown-trigger">
+                                    <button className="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                                        <span>App Development</span>
+                                        <span className="icon is-small">
+                                        <i className="fas fa-angle-down" aria-hidden="true"></i>
+                                        </span>
+                                    </button>
+                                    </div>
+                                    <div className="dropdown-menu" id="dropdown-menu" role="menu">
+                                    <div className="dropdown-content">
+                                        <div className="nested dropdown dropdown-item">
+                                        <div className="">
+                                        <Link href="#"><a className="navbar-item">Mobile App Development</a></Link>
+                                        <Link href="#"><a className="navbar-item">Android App Development</a></Link>
+                                        <Link href="#"><a className="navbar-item">iPhone  App Development</a></Link>
+                                        <Link href="#"><a className="navbar-item">Web App Development</a></Link>   
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        <Link href="#"><a class="dropdown-item">Web Technologies</a></Link>
+                        <Link href="#"><a class="dropdown-item">Hybrid App Development</a></Link>
+                        <Link href="#"><a class="dropdown-item">Latest Technologies</a></Link>
+                        <Link href="#"><a class="dropdown-item">UI / UX Design</a></Link>
+                        <Link href="#"><a class="dropdown-item">Quality Assurance</a></Link>
                         </div>
+                        
                     </div>
+
                     <Link href="#"><a className="navbar-item">Hire Resources</a></Link>
                     <div className="navbar-item has-dropdown is-hoverable">
                         <Link href="#"><a className="navbar-link">Digital Marketing</a></Link>

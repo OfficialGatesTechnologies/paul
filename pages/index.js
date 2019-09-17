@@ -5,7 +5,6 @@ import Banner from '../components/banner';
 import Win_deeds from '../components/win-deeds';
 import Startup_sec from '../components/start-up-sec';
 import Pack_service from '../components/pack-service';
-import Pack_service_01 from '../components/pack-service-01';
 import Attain from '../components/attain';
 import Our_rec from '../components/our-rec';
 import Our_work from '../components/our-work';
@@ -37,7 +36,7 @@ export default withRouter(class Index extends Component {
                     <Startup_sec/>
                     <Our_rec/>
                     <Our_work/>
-                    <Pack_service_01/>
+                    <Pack_service/>
                     <Attain/>
                     <Brands/>
                     <Testimonials/>

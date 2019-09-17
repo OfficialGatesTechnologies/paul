@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="57.2373" y1="-114" x2="94.9883" y2="-114" gradientTransform="matrix(1 0 0 -1 -50 -89)">
+				<stop  offset="0" style="stop-color:#5E55D7"/>
+				<stop  offset="1" style="stop-color:#5C83E3"/>
+			</linearGradient>
+			<path fill="url(#SVGID_1_)" d="M43.96,39.011L28.275,23.325L9.95,5H8.517L8.226,5.743C7.454,7.704,7.124,9.71,7.271,11.544
+				c0.17,2.09,0.963,3.899,2.297,5.233l14.305,14.306l1.887-1.888l13.227,14.789c1.314,1.314,3.58,1.394,4.974,0
+				C45.331,42.613,45.331,40.382,43.96,39.011z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="55.0127" y1="-125.3691" x2="72.2188" y2="-125.3691" gradientTransform="matrix(1 0 0 -1 -50 -89)">
+				<stop  offset="0" style="stop-color:#5E55D7"/>
+				<stop  offset="1" style="stop-color:#5C83E3"/>
+			</linearGradient>
+			<path fill="url(#SVGID_2_)" d="M17.245,27.77L6.041,38.975c-1.371,1.371-1.371,3.603,0,4.974c1.303,1.303,3.557,1.418,4.975,0
+				l11.203-11.204L17.245,27.77z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="76.4355" y1="-103.291" x2="94.9609" y2="-103.291" gradientTransform="matrix(1 0 0 -1 -50 -89)">
+				<stop  offset="0" style="stop-color:#5E55D7"/>
+				<stop  offset="1" style="stop-color:#5C83E3"/>
+			</linearGradient>
+			<path fill="url(#SVGID_3_)" d="M43.301,11.66l-6.355,6.355l-1.656-1.658l6.355-6.355l-1.658-1.658l-6.355,6.355l-1.658-1.658
+				l6.355-6.355l-1.657-1.658l-8.29,8.291c-1.015,1.014-1.62,2.361-1.706,3.791c-0.021,0.363-0.104,0.72-0.239,1.06l5.385,5.386
+				c0.34-0.137,0.697-0.219,1.06-0.24c1.431-0.086,2.777-0.691,3.792-1.705l8.289-8.291L43.301,11.66z"/>
+		</g>
+	</g>
+</g>
+</svg>
