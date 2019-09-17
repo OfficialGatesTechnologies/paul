@@ -79,7 +79,7 @@ body {
     z-index: 9;
 }
 .p-0 {
-    padding: 0;
+    padding: 0 !important;
 }
 .py-5 {
     padding: 50px 0;
@@ -565,7 +565,7 @@ body {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 525px 750px 0 200px;
+    border-width: 550px 750px 0 200px;
     border-color: #5e5fda transparent transparent #5e5fda;
     left: 0;
 }
@@ -1166,4 +1166,71 @@ textarea::-moz-placeholder {
     font-size: 14px;
     font-weight: 400;
     height: 2em;
+}
+.w-100 {
+    width: 100%;
+}
+.dropdown-trigger .navbar-item {
+    position: relative;
+}
+.dropdown-trigger .navbar-item:after {
+    border: 3px solid #000;
+    border-radius: 2px;
+    border-right: 0;
+    border-top: 0;
+    content: " ";
+    display: block;
+    height: 0.500em;
+    margin-top: -0.4375em;
+    pointer-events: none;
+    position: absolute;
+    top: 20px;
+    transform: rotate(-135deg);
+    transform-origin: center;
+    width: 0.500em;
+    border-width: 2px;
+    right: 10px;
+}
+.icon-grid-main-wrap {
+    position: relative;
+    min-height: 100px;
+}
+.icon-grid-img {
+    position: absolute;
+    background: #5d74df;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+}
+.icon-grid-img img {
+    max-width: 50px;
+    max-height: 50px;
+    align-self: center;
+}
+.icon-grid-cnt {
+    padding-left: 100px;
+}
+.icon-grid-cnt h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.icon-grid-cnt > p
+{
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.icon-grid-cnt-in h5 {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Palanquin', sans-serif;
+    margin-bottom: 10px;
+}
+.icon-grid-cnt-in p {
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 15px;
 }

@@ -41,53 +41,105 @@ export default withRouter(class Header extends Component {
                     <div className="navbar-item has-dropdown is-hoverable">
                         <Link href="#"><a className="navbar-link">Services</a></Link>
                         <div className="navbar-dropdown">
-                                <div className="nested navbar-item dropdown">
-
-                                    <div className="dropdown-trigger">
-                                    <button className="button" aria-haspopup="true" aria-controls="dropdown-menu">
-                                        <span>App Development</span>
-                                        <span className="icon is-small">
-                                        <i className="fas fa-angle-down" aria-hidden="true"></i>
-                                        </span>
-                                    </button>
+                                <div className="nested navbar-item dropdown p-0">
+                                    <div className="dropdown-trigger w-100">
+                                    <Link href="#"><a className="navbar-item"><span className="dd-m-link" aria-haspopup="true" aria-controls="dropdown-menu">App Development</span></a></Link>
                                     </div>
                                     <div className="dropdown-menu" id="dropdown-menu" role="menu">
                                     <div className="dropdown-content">
                                         <div className="nested dropdown dropdown-item">
-                                        <div className="">
-                                        <Link href="#"><a className="navbar-item">Mobile App Development</a></Link>
-                                        <Link href="#"><a className="navbar-item">Android App Development</a></Link>
-                                        <Link href="#"><a className="navbar-item">iPhone  App Development</a></Link>
-                                        <Link href="#"><a className="navbar-item">Web App Development</a></Link>   
-                                        </div>
+                                            <Link href="mobile-app-development"><a className="navbar-item">Mobile App Development</a></Link>
+                                            <Link href="android-app-development"><a className="navbar-item">Android App Development</a></Link>
+                                            <Link href="#"><a className="navbar-item">iPhone  App Development</a></Link>
+                                            <Link href="#"><a className="navbar-item">Web App Development</a></Link>   
                                         </div>
                                     </div>
                                     </div>
                                 </div>
-                        <Link href="#"><a class="dropdown-item">Web Technologies</a></Link>
-                        <Link href="#"><a class="dropdown-item">Hybrid App Development</a></Link>
-                        <Link href="#"><a class="dropdown-item">Latest Technologies</a></Link>
-                        <Link href="#"><a class="dropdown-item">UI / UX Design</a></Link>
-                        <Link href="#"><a class="dropdown-item">Quality Assurance</a></Link>
+                                <div className="nested navbar-item dropdown p-0">
+                                <div className="dropdown-trigger w-100">
+                                    <Link href="#"><a className="navbar-item"><span className="dd-m-link" aria-haspopup="true" aria-controls="dropdown-menu">Web Technologies</span></a></Link>
+                                    </div>
+                                    <div className="dropdown-menu" id="dropdown-menu" role="menu">
+                                    <div className="dropdown-content">
+                                        <div className="nested dropdown dropdown-item">
+                                            <Link href=""><a className="navbar-item">PHP Development</a></Link>
+                                            <Link href=""><a className="navbar-item">Codeigniter</a></Link>
+                                            <Link href="#"><a className="navbar-item">Zend Development</a></Link>
+                                            <Link href="#"><a className="navbar-item">Laraval Development</a></Link>  
+                                            <Link href=""><a className="navbar-item">Angular Development</a></Link>
+                                            <Link href="#"><a className="navbar-item">Node JS Development</a></Link>
+                                            <Link href="#"><a className="navbar-item">HTML5 Web App Development</a></Link>   
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div className="nested navbar-item dropdown p-0">
+                                <div className="dropdown-trigger w-100">
+                                    <Link href="#"><a className="navbar-item"><span className="dd-m-link" aria-haspopup="true" aria-controls="dropdown-menu">Hybrid App Development</span></a></Link>
+                                    </div>
+                                    <div className="dropdown-menu" id="dropdown-menu" role="menu">
+                                    <div className="dropdown-content">
+                                        <div className="nested dropdown dropdown-item">
+                                            <Link href=""><a className="navbar-item">Ionic App Development</a></Link>
+                                            <Link href=""><a className="navbar-item">Phonegap App Development</a></Link>
+                                            <Link href="#"><a className="navbar-item">React Native App Development</a></Link>
+                                            <Link href="#"><a className="navbar-item">Flutter App Development</a></Link>   
+                                            <Link href="#"><a className="navbar-item">Xamarin App Development</a></Link>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div className="nested navbar-item dropdown p-0">
+                                <div className="dropdown-trigger w-100">
+                                    <Link href="#"><a className="navbar-item"><span className="dd-m-link" aria-haspopup="true" aria-controls="dropdown-menu">Latest Technologies</span></a></Link>
+                                    </div>
+                                    <div className="dropdown-menu" id="dropdown-menu" role="menu">
+                                    <div className="dropdown-content">
+                                        <div className="nested dropdown dropdown-item">
+                                            <Link href=""><a className="navbar-item">Wearable Development</a></Link>
+                                            <Link href="#"><a className="navbar-item">IOT App Development</a></Link>
+                                            <Link href="#"><a className="navbar-item">Beacon App Development</a></Link>   
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        <Link href="#"><a className="navbar-item dropdown-item">UI / UX Design</a></Link>
+                        <Link href="#"><a className="navbar-item dropdown-item">Quality Assurance</a></Link>
                         </div>
                         
                     </div>
-
-                    <Link href="#"><a className="navbar-item">Hire Resources</a></Link>
                     <div className="navbar-item has-dropdown is-hoverable">
-                        <Link href="#"><a className="navbar-link">Digital Marketing</a></Link>
+                        <Link href="#"><a className="navbar-link">Industries</a></Link>
+                            <div className="navbar-dropdown">
+                                <Link href="#"><a className="navbar-item">IOT Application</a></Link>
+                                <Link href="#"><a className="navbar-item">Healthcare & Fitness</a></Link>
+                                <Link href="#"><a className="navbar-item">Education</a></Link>
+                                <Link href="#"><a className="navbar-item">Banking & Finance</a></Link>
+                                <Link href="#"><a className="navbar-item">Ecommerece</a></Link>
+                                <Link href="#"><a className="navbar-item">Gaming</a></Link>
+                                <Link href="#"><a className="navbar-item">Food & Restaurant</a></Link>
+                                <Link href="#"><a className="navbar-item">Taxi Booking</a></Link>
+                                <Link href="#"><a className="navbar-item">Dating</a></Link>
+                                <Link href="#"><a className="navbar-item">Travel & Transport</a></Link>
+                                <Link href="#"><a className="navbar-item">Events & Tickets</a></Link>
+                                <Link href="#"><a className="navbar-item">Social Networking</a></Link>
+                            </div>
+                    </div>
+                    <div className="navbar-item has-dropdown is-hoverable">
+                        <Link href="#"><a className="navbar-link">Case Studies</a></Link>
                         <div className="navbar-dropdown">
-                        <Link href="#"><a className="navbar-item">Ecommerce SEO Services</a></Link>
-                        <Link href="#"><a className="navbar-item">Facebook Marketing</a></Link>
-                        <Link href="#"><a className="navbar-item">PPC ad</a></Link>
-                        <Link href="#"><a className="navbar-item">SEO</a></Link>
-                        <Link href="#"><a className="navbar-item">Social Media Marketing</a></Link>
-                        <Link href="#"><a className="navbar-item">Youtube Marketing</a></Link>
+                            <Link href="#"><a className="navbar-item">Game App</a></Link>
+                            <Link href="#"><a className="navbar-item">Sports App</a></Link>
+                            <Link href="#"><a className="navbar-item">Car Wash App</a></Link>
+                            <Link href="#"><a className="navbar-item">Coupon & Deals App</a></Link>
+                            <Link href="#"><a className="navbar-item">News & Media App</a></Link>
+                            <Link href="#"><a className="navbar-item">Health & Fitness App</a></Link>
+                            <Link href="#"><a className="navbar-item">Restaurant App</a></Link>
                         </div>
                     </div>
-                    <Link href="#"><a className="navbar-item">IOT</a></Link>
-                    <Link href="#"><a className="navbar-item">Products</a></Link>
-                    <Link href="#"><a className="navbar-item"> Contact Us</a></Link>
+                    <Link href="#"><a className="navbar-item">Portfolio</a></Link>
+                    <Link href="#"><a className="navbar-item">Hire Us</a></Link>
                     </div>
                     </div>
                     <span className="navbar-item gt-btn-menu">

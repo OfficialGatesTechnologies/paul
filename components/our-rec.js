@@ -31,11 +31,12 @@ export default withRouter(class Header extends Component {
                         </div>
                     </div>
                     <div className="sec-ttl has-text-centered">
+                    <div className="container">
                         <h1 className="ttl-head">Our-Recognitions</h1>
                         <p className="ttl-p mx-610">Our work characterizes us itself, but appreciations are nice too. Industry recognition is 
 the accelerator that keeps us moving towards success.</p>
                     </div>
-
+                    </div>
                     <div className="container">
                     <div className="our-rec-slider has-text-centered">
                         <AliceCarousel responsive={this.state.ourRecItems} mouseDragEnabled  buttonsDisabled ={true}>

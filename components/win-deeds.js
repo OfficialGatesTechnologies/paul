@@ -21,9 +21,11 @@ export default withRouter(class Header extends Component {
             <div>
                 <section className="w-deed py-5">
                     <div className="sec-ttl has-text-centered">
+                    <div className="container">
                         <h1 className="ttl-head">Have A Look On Our Winning Deeds</h1>
                         <p className="ttl-p mx-610">Accomplished Team, Vast Experience in comprehensive Technical Insight, Targeted Result & Delighted
 Customers work as a pillar in our Success.</p>
+                    </div>
                     </div>
                     <div className="container">
                     <div className="w-deed-list has-text-centered">

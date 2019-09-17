@@ -5,7 +5,7 @@ import ReactSVG from 'react-svg';
 const Footer = () => (      
     <div>
         <footer className="footer footer-cus">
-          <div className="container">
+          <div className="container p-0">
                 <div className="columns is-multiline">
                   <div className="foo-col-01 foo-cmn-s column is-one-third-tablet is-3-desktop">
                       <img src="../static/images/logo-white.png" alt="img"/>
