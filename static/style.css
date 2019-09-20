@@ -1402,3 +1402,6 @@ textarea::-moz-placeholder {
     max-height: 43px;
     max-width: 43px;
 }
+.m-scroll a.navbar-item {
+    padding: 8px 40px 8px 12px;
+}
