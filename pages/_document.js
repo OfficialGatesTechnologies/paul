@@ -15,6 +15,7 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico" />
           <link rel='stylesheet' type='text/css' href='/static/nprogress.css' />
           <link rel='stylesheet' type='text/css' href='/static/style.css' />
+          <link rel='stylesheet' type='text/css' href='/static/main.css' />
           <link rel='stylesheet' type='text/css' href='/static/responsive.css' />
           <link rel='stylesheet' type='text/css' href='/static/animate.min.css' />
             

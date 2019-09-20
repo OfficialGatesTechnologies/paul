@@ -70,7 +70,7 @@ export default withRouter(class Index extends Component {
             <div>
                 <Head>
                     <meta charSet="utf-8" />
-                    <title>{site_name} | Home</title>
+                    <title>{site_name} | Mobile App Development</title>
                     <meta name='subject' content='www.couponarbitrage.com' />
                     <meta name="distribution" content="Global" />
                     <meta name="revisit-after" content="1 days" />

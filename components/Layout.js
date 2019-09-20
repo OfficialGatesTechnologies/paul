@@ -18,7 +18,7 @@ export default class Layout extends Component {
     render () {
         return (
             <div>
-                <Loader loading={this.state.loading} />
+                
                 
                    <Header/>
                 
@@ -28,4 +28,4 @@ export default class Layout extends Component {
     }
 }
     
-const Loader = ({ loading }) => <div className={loading ? 'loading-show' : ''} id="loader-bar" />;
+ 

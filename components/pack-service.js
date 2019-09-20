@@ -17,7 +17,7 @@ export default withRouter(class Header extends Component {
                   
                     title:'Mobile Apps',
                     image:'../static/images/icons/tab-i-01.svg',
-                    tabContent:"In the age of Smartphones, mobile apps have taken an immortal place & RipenApps provides the best services that excel in delivering client-centric & highly engaging custom mobile solutions as our team believes in innovativeness, uniqueness & creativeness.",
+                    tabContent:"In the age of Smartphones, mobile apps have taken an immortal place & Paul provides the best services that excel in delivering client-centric & highly engaging custom mobile solutions as our team believes in innovativeness, uniqueness & creativeness.",
                 },
                 {
                     title:'Wearable', 
@@ -42,7 +42,7 @@ export default withRouter(class Header extends Component {
                 {
                     title:'UI / UX', 
                     image:'../static/images/icons/tab-i-06.svg',
-                    tabContent:"We, at RipenApps, have the knowledge about the market requirements and therefore we design everything in a manner that it stimulates growth for your business. Our creativity to engage user experience in mobile apps and websites makes us a great choice across different platforms.",
+                    tabContent:"We, at Paul, have the knowledge about the market requirements and therefore we design everything in a manner that it stimulates growth for your business. Our creativity to engage user experience in mobile apps and websites makes us a great choice across different platforms.",
                 }
         ]
         }

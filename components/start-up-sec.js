@@ -3,7 +3,9 @@ import '../styles/styles.scss';
 import Link from 'next/link';
 import { withRouter } from 'next/router';
 
-import $ from 'jquery';
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
+ 
 export default withRouter(class Header extends Component {
 
     constructor(props) {
@@ -13,39 +15,9 @@ export default withRouter(class Header extends Component {
         }
     }
     componentDidMount = () => {
-        var a = 0;
-        $(window).scroll(function() {
-        
-          var oTop = $('#counter').offset().top - window.innerHeight;
-          if (a == 0 && $(window).scrollTop() > oTop) {
-            $('.counter-value').each(function() {
-              var $this = $(this),
-                countTo = $this.attr('data-count');
-              $({
-                countNum: $this.text()
-              }).animate({
-                  countNum: countTo
-                },
-        
-                {
-        
-                  duration: 2000,
-                  easing: 'swing',
-                  step: function() {
-                    $this.text(Math.floor(this.countNum));
-                  },
-                  complete: function() {
-                    $this.text(this.countNum);
-                    //alert('finished');
-                  }
-        
-                });
-            });
-            a = 1;
-          }
-        
-        });
+       
     }
+ 
     
     render() {
 
@@ -70,7 +42,15 @@ customers delighted & make you Brand Visible.</p>
                                     <div className="column is-4-tablet">
                                         <div className="por-count has-text-centered">
                                             <div className="pro-count-in">
-                                                <h4><span className="counter-value pro-cunt" data-count="60">0</span> <span className="pro-cunt-plus">+</span></h4>
+                                           
+                                                <h4>
+                                                <VisibilitySensor>
+                                                {({isVisible}) =>
+                                                        <span className="counter-value pro-cunt" data-count="60">     {isVisible ? <CountUp end={60} > </CountUp> : '0'}  </span>
+                                                        }
+                                             
+                                                     </VisibilitySensor>
+                                                     <span className="pro-cunt-plus">+</span></h4>
                                             </div>
                                             <h5>Apps Featured on AppStore</h5>
                                         </div>
@@ -78,7 +58,17 @@ customers delighted & make you Brand Visible.</p>
                                     <div className="column is-4-tablet">
                                         <div className="por-count has-text-centered">
                                             <div className="pro-count-in">
-                                            <h4><span className="counter-value pro-cunt" data-count="15">0</span> <span className="pro-cunt-plus">+</span></h4> 
+                                            <h4>
+
+                                               
+                                                <VisibilitySensor>
+                                                {({isVisible}) =>
+                                                        <span className="counter-value pro-cunt" data-count="60">     {isVisible ? <CountUp end={15} > </CountUp> : '0'}  </span>
+                                                        }
+                                             
+                                                     </VisibilitySensor>
+                                                
+                                                <span className="pro-cunt-plus">+</span></h4> 
                                             </div>
                                             <h5>Apps With 1M+ Downloads</h5>
                                         </div>
@@ -86,7 +76,13 @@ customers delighted & make you Brand Visible.</p>
                                     <div className="column is-4-tablet">
                                         <div className="por-count has-text-centered">
                                             <div className="pro-count-in">
-                                            <h4><span className="counter-value pro-cunt" data-count="4.5">0</span> <span className="pro-cunt-plus">+</span></h4> 
+                                            <h4>
+                                            <VisibilitySensor>
+                                                {({isVisible}) =>
+                                                        <span className="counter-value pro-cunt" data-count="60">     {isVisible ? <CountUp end={4,5} > </CountUp> : '0'}  </span>
+                                                        }
+                                            </VisibilitySensor>
+                                                <span className="pro-cunt-plus">+</span></h4> 
                                             </div>
                                             <h5>Raised From Investors</h5>
                                         </div>

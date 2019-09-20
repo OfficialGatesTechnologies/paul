@@ -8,10 +8,10 @@ const Footer = () => (
           <div className="container p-0">
                 <div className="columns is-multiline">
                   <div className="foo-col-01 foo-cmn-s column is-one-third-tablet is-3-desktop">
-                      <img src="../static/images/logo-white.png" alt="img"/>
+                      <img src="../static/images/logo-white.svg" alt="img"/>
                         <p>It is a long established fact that a reader 
-will be distracted by the readable content
-of a page when looking at its layout.</p>
+                            will be distracted by the readable content
+                            of a page when looking at its layout.</p>
                         <ul>
                           <li><span><img src="../static/images/icons/frm-skype.svg" alt="img"/></span> <Link href=""><a>live:paul | tech</a></Link></li>
                           <li><span><img src="../static/images/icons/frm-mail.svg" alt="img"/></span> <Link href=""><a>support@paultech.com</a></Link></li>
@@ -24,31 +24,31 @@ of a page when looking at its layout.</p>
                     <div className="foo-cmn-s p-0 column is-6">
                           <h5>Services</h5>
                           <ul>
-                            <li><Link href=""><a>App Development</a></Link></li>
-                            <li><Link href=""><a>Mobile App Development</a></Link></li>
-                            <li><Link href=""><a>Android App Development</a></Link></li>
-                            <li><Link href=""><a>iPhone App Development</a></Link></li>
-                            <li><Link href=""><a>Web Development</a></Link></li>
-                            <li><Link href=""><a>UI / UX Design</a></Link></li>
-                            <li><Link href=""><a>Web App Development</a></Link></li>
-                            <li><Link href=""><a>Quality Assurance</a></Link></li>
-                            <li><Link href=""><a>PHP Development</a></Link></li>
-                            <li><Link href=""><a>Codeigniter</a></Link></li>
+                            <li><Link href="application-development"><a>App Development</a></Link></li>
+                            <li><Link href="mobile-app-development"><a>Mobile App Development</a></Link></li>
+                            <li><Link href="android-app-development"><a>Android App Development</a></Link></li>
+                            <li><Link href="iphone-app-development"><a>iPhone App Development</a></Link></li>
+                            <li><Link href="website-development"><a>Web Development</a></Link></li>
+                            <li><Link href="ui-ux-design"><a>UI / UX Design</a></Link></li>
+                            <li><Link href="web-development"><a>Web App Development</a></Link></li>
+                            <li><Link href="quality-assurance"><a>Quality Assurance</a></Link></li>
+                            <li><Link href="php-web-development"><a>PHP Development</a></Link></li>
+                            <li><Link href="codeigniter-development-services"><a>Codeigniter</a></Link></li>
                           </ul>
                       </div>
                       <div className="foo-cmn-s foo-cmn-s-ss p-0 column is-6">
                       <h5>&nbsp;</h5>
                           <ul>
-                            <li><Link href=""><a>Zend Development</a></Link></li>
-                            <li><Link href=""><a>Laraval Development</a></Link></li>
-                            <li><Link href=""><a>Angular JS Development</a></Link></li>
-                            <li><Link href=""><a>Node JS Development</a></Link></li>
-                            <li><Link href=""><a>HTML5 Web App Development</a></Link></li>
-                            <li><Link href=""><a>Hybrid App Development</a></Link></li>
-                            <li><Link href=""><a>Ionic App Development</a></Link></li>
-                            <li><Link href=""><a>Phonegap App Development</a></Link></li>
-                            <li><Link href=""><a>React Native App Development</a></Link></li>
-                            <li><Link href=""><a>More...</a></Link></li>
+                            <li><Link href="zend-development"><a>Zend Development</a></Link></li>
+                            <li><Link href="laravel-development"><a>Laraval Development</a></Link></li>
+                            <li><Link href="angular-js-development"><a>Angular JS Development</a></Link></li>
+                            <li><Link href="node-js-development"><a>Node JS Development</a></Link></li>
+                            <li><Link href="html5-web-app-development"><a>HTML5 Web App Development</a></Link></li>
+                            <li><Link href="hybrid-app-development"><a>Hybrid App Development</a></Link></li>
+                            <li><Link href="ionic-app-development"><a>Ionic App Development</a></Link></li>
+                            <li><Link href="phonegap-app-development"><a>Phonegap App Development</a></Link></li>
+                            <li><Link href="react-native-development"><a>React Native App Development</a></Link></li>
+                            <li><Link href="flutter-development"><a>Flutter App Development</a></Link></li>
                           </ul>
                       </div>
                     </div>
@@ -56,11 +56,10 @@ of a page when looking at its layout.</p>
                     <div className="foo-cmn-s column is-full-tablet is-3-desktop">
                       <h5>Company</h5>
                         <ul>
-                            <li><Link href=""><a>About us</a></Link></li>
-                            <li><Link href=""><a>Portfolio</a></Link></li>
-                            <li><Link href=""><a>Hire Us</a></Link></li>
-                            <li><Link href=""><a>Blog</a></Link></li>
-                            <li><Link href=""><a>Contact Us</a></Link></li>
+                            <li><Link href="about"><a>About us</a></Link></li>
+                            <li><Link href="portfolio"><a>Portfolio</a></Link></li>
+                            <li><Link href="hire-dedicated-app-developers"><a>Hire Us</a></Link></li>
+                            <li><Link href="contact"><a>Contact Us</a></Link></li>
                         </ul>
                           <div className="soc-links">
                                <h5>Follow us</h5>
