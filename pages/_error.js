@@ -1,18 +1,33 @@
-import React from 'react'
+import React, { Component } from 'react';
+import Head from 'next/head';
+import { withRouter } from 'next/router';
 
-function Error({ statusCode }) {
-  return (
-    <p>
-      {statusCode
-        ? `An error ${statusCode} occurred on server`
-        : 'An error occurred on client'}
-    </p>
-  )
-}
+export default withRouter(class Error extends Component {
 
-Error.getInitialProps = ({ res, err }) => {
-  const statusCode = res ? res.statusCode : err ? err.statusCode : null
-  return { statusCode }
-}
+    constructor(props) {
+        super(props);
+        this.state = {
+            
+        }
+    }
 
-export default Error
+    componentDidMount = () => {
+    }
+
+    render() {
+        return (
+          
+          <div>
+                <Head>
+                    <meta charSet="utf-8" />
+                    <title>Page not found</title>
+                    <meta name="distribution" content="Global" />
+                    <meta name="revisit-after" content="1 days" />
+                    <meta name="creator" content="officialgates (www.officialgates.com)" />
+                    <meta name="publisher" content="officialgates (www.officialgates.com)" />
+                </Head>
+</div>
+            )
+    }
+})
+ 
