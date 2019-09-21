@@ -26,6 +26,15 @@ export default withRouter(class Error extends Component {
                     <meta name="creator" content="officialgates (www.officialgates.com)" />
                     <meta name="publisher" content="officialgates (www.officialgates.com)" />
                 </Head>
+            
+             <div className="main-wrap">
+                    
+                    <div className="page-cnt-wrap py-5 py-m-3 pb-0">
+                        <div className="page-main-cnt pb-5 pb-m-2">
+            <p>Page Not found</p>
+            </div>
+            </div>
+            </div>
 </div>
             )
     }
