@@ -31,7 +31,11 @@ export default withRouter(class Error extends Component {
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
-            <p>Page Not found</p>
+                        <div className="container">
+                                <div className="err-page">
+                                    <div className="err-img"><img src="../static/images/others/404.png" alt="image"/></div>
+                                </div>
+                            </div>
             </div>
             </div>
             </div>
