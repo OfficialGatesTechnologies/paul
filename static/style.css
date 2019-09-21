@@ -1411,3 +1411,11 @@ textarea::-moz-placeholder {
     justify-content: center;
     margin-top: 20px;
 }
+.err-page {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.err-img {
+    align-self: center;
+}
