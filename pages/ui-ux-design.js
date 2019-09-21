@@ -93,7 +93,7 @@ export default withRouter(class Index extends Component {
                     <div className="inner-banner has-text-centered">
                     
                         <div className="inner-banner-cnt">
-                        <div className="circle-ripple"><img src="../static/images/icons/beacon-dev.svg" alt="i"/> </div>
+                        <div className="circle-ripple"><img src="../static/images/icons/ui-dev.svg" alt="i"/> </div>
                             <h4>UI/UX Design Company</h4>
                         </div>
                        

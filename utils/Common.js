@@ -1,5 +1,5 @@
 var md5 = require('md5');
-export const site_name = 'Couponarbitrage.com';
+export const site_name = 'Paul';
 export const apiUrl = 'http://localhost:3001/';
 export const siteUrl = 'http://localhost:3002/';
 export const genRandomPassword = (length) => {

@@ -174,6 +174,9 @@ export default withRouter(class Index extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    <div className="ser-btn">
+                                        <Link href="application-development"><a className="theme-color ban-theme-btn">Read More</a></Link>
+                                    </div>
                                 </div>
                             </div>
                             <div className="por-count-wrap py-5 py-m-3">
@@ -236,6 +239,9 @@ export default withRouter(class Index extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    <div className="ser-btn">
+                                        <Link href="website-development"><a className="theme-color ban-theme-btn">Read More</a></Link>
+                                    </div>
                                 </div>
                             </div>
                             <div className="por-count-wrap py-5 py-m-3">
@@ -289,6 +295,9 @@ export default withRouter(class Index extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    <div className="ser-btn">
+                                        <Link href="hybrid-app-development"><a className="theme-color ban-theme-btn">Read More</a></Link>
+                                    </div>
                                 </div>
                             </div>
                             <div className="por-count-wrap py-5 py-m-3">
@@ -323,6 +332,9 @@ export default withRouter(class Index extends Component {
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div className="ser-btn">
+                                        <Link href="iot-app-development"><a className="theme-color ban-theme-btn">Read More</a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -367,6 +379,9 @@ export default withRouter(class Index extends Component {
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div className="ser-btn">
+                                        <Link href="quality-assurance"><a className="theme-color ban-theme-btn">Read More</a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -432,18 +447,12 @@ export default withRouter(class Index extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    <div className="ser-btn">
+                                        <Link href="ui-ux-design"><a className="theme-color ban-theme-btn">Read More</a></Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
-
-
-
-
 
                         <div className="page-cnt-tab">
                             <section className="startup-sec py-5">

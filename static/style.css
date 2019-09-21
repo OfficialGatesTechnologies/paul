@@ -479,6 +479,7 @@ body {
     font-size: 13px;
     padding: 12px 35px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+    z-index: 9;
 }
 
 .banner-carousel .alice-carousel .alice-carousel__dots {
@@ -1402,6 +1403,11 @@ textarea::-moz-placeholder {
     max-height: 43px;
     max-width: 43px;
 }
-.m-scroll a.navbar-item {
+.m-scroll > a.navbar-item {
     padding: 8px 40px 8px 12px;
+}
+.ser-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
