@@ -68,7 +68,6 @@ export default withRouter(class Index extends Component {
             <Head>
               <meta charSet="utf-8" />
               <title>{site_name} | Hire Dedicated App Developers</title>
-              <meta name="subject" content="www.couponarbitrage.com" />
               <meta name="distribution" content="Global" />
               <meta name="revisit-after" content="1 days" />
               <meta

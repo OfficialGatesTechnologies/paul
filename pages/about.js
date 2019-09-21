@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import Head from 'next/head';
 import Banner from '../components/banner';
@@ -32,7 +31,6 @@ export default withRouter(class Index extends Component {
                 <Head>
                     <meta charSet="utf-8" />
                     <title>{site_name} | About</title>
-                    <meta name='subject' content='www.couponarbitrage.com' />
                     <meta name="distribution" content="Global" />
                     <meta name="revisit-after" content="1 days" />
                     <meta name="creator" content="officialgates (www.officialgates.com)" />
@@ -41,14 +39,6 @@ export default withRouter(class Index extends Component {
 
                  
                 <div className="main-wrap">
-                    {/* <div className="inner-banner has-text-centered">
-                    
-                        <div className="inner-banner-cnt">
-                        <div className="circle-ripple"><img src="../static/images/icons/about.svg" alt="i"/> </div>
-                            <h4>About</h4>
-                        </div>
-                       
-                    </div> */}
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
