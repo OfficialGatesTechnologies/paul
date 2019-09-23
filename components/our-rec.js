@@ -45,7 +45,7 @@ the accelerator that keeps us moving towards success.</p>
                                 <img src="../static/images/others/pro-logo-01.png" alt="image"/>
                                 </div>
                                 <div className="our-rec-cnt">
-                                    <p>Officialgates is globally recognized under Top 10 Mobile App and Web Developers on FlipCanvas.</p>
+                                    <p>PaulTech is globally recognized under Top 10 Mobile App and Web Developers on FlipCanvas.</p>
                                     <div className="has-text-right">
                                     <Link href=""><a>VIEW SITE</a></Link>
                                     </div>
@@ -56,7 +56,7 @@ the accelerator that keeps us moving towards success.</p>
                                 <img src="../static/images/others/pro-logo-01.png" alt="image"/>
                                 </div>
                                 <div className="our-rec-cnt">
-                                    <p>Officialgates is globally recognized under Top 10 Mobile App and Web Developers on FlipCanvas.</p>
+                                    <p>PaulTech is globally recognized under Top 10 Mobile App and Web Developers on FlipCanvas.</p>
                                     <div className="has-text-right">
                                     <Link href=""><a>VIEW SITE</a></Link>
                                     </div>
@@ -67,7 +67,7 @@ the accelerator that keeps us moving towards success.</p>
                                 <img src="../static/images/others/pro-logo-01.png" alt="image"/>
                                 </div>
                                 <div className="our-rec-cnt">
-                                    <p>Officialgates is globally recognized under Top 10 Mobile App and Web Developers on FlipCanvas.</p>
+                                    <p>PaulTech is globally recognized under Top 10 Mobile App and Web Developers on FlipCanvas.</p>
                                     <div className="has-text-right">
                                     <Link href=""><a>VIEW SITE</a></Link>
                                     </div>

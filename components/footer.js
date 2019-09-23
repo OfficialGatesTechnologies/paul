@@ -64,11 +64,11 @@ const Footer = () => (
                           <div className="soc-links">
                                <h5>Follow us</h5>
                                <ul>
-                                  <li><Link href=""><a><span className="soc-i"><ReactSVG src="../static/images/icons/soc-01.svg" /></span></a></Link></li>
-                                  <li><Link href=""><a><span className="soc-i"><ReactSVG src="../static/images/icons/soc-02.svg" /></span></a></Link></li>
-                                  <li><Link href=""><a><span className="soc-i"><ReactSVG src="../static/images/icons/soc-03.svg" /></span></a></Link></li>
-                                  <li><Link href=""><a><span className="soc-i"><ReactSVG src="../static/images/icons/soc-04.svg" /></span></a></Link></li>
-                                  <li><Link href=""><a><span className="soc-i"><ReactSVG src="../static/images/icons/soc-05.svg" /></span></a></Link></li>
+                                  <li><Link href=""><a title="facebook"><span className="soc-i"><ReactSVG src="../static/images/icons/soc-01.svg" /></span></a></Link></li>
+                                  <li><Link href=""><a title="twitter"><span className="soc-i"><ReactSVG src="../static/images/icons/soc-02.svg" /></span></a></Link></li>
+                                  <li><Link href=""><a title="linkedin"><span className="soc-i"><ReactSVG src="../static/images/icons/soc-03.svg" /></span></a></Link></li>
+                                  <li><Link href=""><a title="instagram"><span className="soc-i"><ReactSVG src="../static/images/icons/soc-04.svg" /></span></a></Link></li>
+                                  <li><Link href=""><a title="pinterest"><span className="soc-i"><ReactSVG src="../static/images/icons/soc-05.svg" /></span></a></Link></li>
                                </ul>
                           </div>
                     </div>

@@ -26,7 +26,7 @@ export default withRouter(class Header extends Component {
             <div>
                 <section className="startup-sec">
                     <div className="sec-ttl sec-ttl-01 has-text-centered py-5">
-                        <h1 className="ttl-head">Passion To Drive Small Startups Into Unicorns Comes With OG!</h1>
+                        <h1 className="ttl-head">Passion To Drive Small Startups Into Unicorns Comes With PAULTECH!</h1>
                         <p className="ttl-p mx-410">We develop apps which get trending & multiply your ROI, turn your 
 customers delighted & make you Brand Visible.</p>
                     </div>

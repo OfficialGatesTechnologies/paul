@@ -34,8 +34,8 @@ export default withRouter(class Header extends Component {
                                 <div className="testimonial-cnt-wrap">
                                     <div className="testimonial-avatar"><img src="../static/images/others/test-avatar.png"/></div>
                                     <div className="testimonial-caps">
-                                        <h5>Brilliancy Comes With Officialgates</h5>
-                                        <p>Professionalism, excellence, client attention, precise and great communication are only a few aspect of the way Officialgates works. 
+                                        <h5>Brilliancy Comes With PaulTech</h5>
+                                        <p>Professionalism, excellence, client attention, precise and great communication are only a few aspect of the way PaulTech works. 
 Since the first approach, to their proposal with sketches and to the final delivery is a great process of professional work. There is a 
 constant communication in order to have your idea being put into a concrete working app</p>
                                         <span className="testimonial-name">Gianluca</span>
@@ -44,8 +44,8 @@ constant communication in order to have your idea being put into a concrete work
                                 <div className="testimonial-cnt-wrap">
                                     <div className="testimonial-avatar"><img src="../static/images/others/test-avatar.png"/></div>
                                     <div className="testimonial-caps">
-                                        <h5>Brilliancy Comes With Officialgates</h5>
-                                        <p>Professionalism, excellence, client attention, precise and great communication are only a few aspect of the way Officialgates works. 
+                                        <h5>Brilliancy Comes With PaulTech</h5>
+                                        <p>Professionalism, excellence, client attention, precise and great communication are only a few aspect of the way PaulTech works. 
 Since the first approach, to their proposal with sketches and to the final delivery is a great process of professional work. There is a 
 constant communication in order to have your idea being put into a concrete working app</p>
                                         <span className="testimonial-name">Gianluca</span>
@@ -54,8 +54,8 @@ constant communication in order to have your idea being put into a concrete work
                                 <div className="testimonial-cnt-wrap">
                                     <div className="testimonial-avatar"><img src="../static/images/others/test-avatar.png"/></div>
                                     <div className="testimonial-caps">
-                                        <h5>Brilliancy Comes With Officialgates</h5>
-                                        <p>Professionalism, excellence, client attention, precise and great communication are only a few aspect of the way Officialgates works. 
+                                        <h5>Brilliancy Comes With PaulTech</h5>
+                                        <p>Professionalism, excellence, client attention, precise and great communication are only a few aspect of the way PaulTech works. 
 Since the first approach, to their proposal with sketches and to the final delivery is a great process of professional work. There is a 
 constant communication in order to have your idea being put into a concrete working app</p>
                                         <span className="testimonial-name">Gianluca</span>
