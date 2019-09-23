@@ -1,18 +1,7 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
-import Com_res from '../components/com-res';
-import Win_deeds from '../components/win-deeds';
-import Our_rec from '../components/our-rec';
-import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
-import Tabs from 'react-responsive-tabs';
-import ReactSVG from 'react-svg';
-import renderHTML from 'react-render-html';
-
 export default withRouter(class Index extends Component {
 
     constructor(props) {
