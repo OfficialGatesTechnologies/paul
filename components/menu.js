@@ -139,6 +139,7 @@ export default withRouter(class Header extends Component {
                         </div>
                     </div> */}
                     <Link href="portfolio"><a className="navbar-item">Portfolio</a></Link>
+                    <Link href="prices"><a className="navbar-item">Prices</a></Link>
                     <Link href="hire-dedicated-app-developers"><a className="navbar-item">Hire Us</a></Link>
                     </div>
                     </div>
