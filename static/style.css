@@ -1490,3 +1490,6 @@ textarea::-moz-placeholder {
 .bg-light-gray{
     background: #f4f6ff;
 }
+.mt-4{
+    margin-top: 4px;
+}

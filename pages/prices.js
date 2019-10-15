@@ -74,29 +74,29 @@ export default withRouter(class Index extends Component {
                               </div>
                               <ul className="pricing-feature-list gold">
                               <li className="pricing-feature d-flex">
-                                <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                 <span className="pricing-list-feature">Fully responsive website</span></li>
                                 <li className="pricing-feature">
-                                <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                 <span className="pricing-list-feature">Up to 20 Pages</span></li>
                                 <li className="pricing-feature">
-                                <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                 <span className="pricing-list-feature">Free .co.uk domain (registered for 1 year)</span></li>
                                 <li className="pricing-feature">
-                                <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                 <span className="pricing-list-feature">Free SSL Certificate</span></li>
                                 <li className="pricing-feature">
-                                <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                 <span className="pricing-list-feature">Free hosting for 1 year</span></li>
                                 <li className="pricing-feature">
-                                <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                 <span className="pricing-list-feature">Free core updates for 1 year</span></li>
                                 <li className="pricing-feature">
-                                <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                 <span className="pricing-list-feature">Contact form sent to your designated email</span></li>
                                       
                                 <li className="pricing-feature">
-                                <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                 <span className="pricing-list-feature">Social media links</span></li>
                               </ul>
                               <div class="con-frm-btn has-text-centered pricing-action">
@@ -141,47 +141,47 @@ export default withRouter(class Index extends Component {
                                     </div>
                                     <ul className="pricing-feature-list silver">
                                     <li className="pricing-feature d-flex">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Fully responsive website</span></li>
                                       <li className="pricing-feature">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Up to 20 Pages</span></li>
                                       <li className="pricing-feature">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Free .co.uk domain (registered for 1 year)</span></li>
                                       <li className="pricing-feature">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Free SSL Certificate</span></li>
                                       <li className="pricing-feature">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Free hosting for 1 year</span></li>
                                       <li className="pricing-feature">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Free core updates for 1 year</span></li>
                                       <li className="pricing-feature">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Contact form sent to your designated email</span></li>
                                       <li className="pricing-feature">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Gallery</span></li>
                                       
                                       <li className="pricing-feature">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Social media links</span></li>
                                       <li className="pricing-feature">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Open Graph & Twitter Cards</span></li>
                                       <li className="pricing-feature">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Google Console account</span></li>
                                       <li className="pricing-feature">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Google My Business creation</span></li>
                                       <li className="pricing-feature">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Google Analytics</span></li>
                                       <li className="pricing-feature">
-                                      <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                      <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Google Map embedded into contact page</span></li>
                                     </ul>
                                     <div class="con-frm-btn has-text-centered pricing-action">
@@ -227,61 +227,61 @@ export default withRouter(class Index extends Component {
                                   </div>
                                   <ul className="pricing-feature-list free">
                                     <li className="pricing-feature d-flex">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Fully responsive website</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Up to 20 Pages</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Free .co.uk domain (registered for 1 year)</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Free SSL Certificate</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Free hosting for 1 year</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Free core updates for 1 year</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Contact form sent to your designated email</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Gallery</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Blog</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Social media links</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Open Graph & Twitter Cards</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Google Console account</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Google My Business creation</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Google Analytics</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Google Map embedded into contact page</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">XML sitemap creation and submission</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">SEO page titles</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">SEO meta descriptions</span></li>
                                     <li className="pricing-feature">
-                                    <span className="flex-1 mr-2"><i className="fa fa-check"></i></span>
+                                    <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Google page indexing</span></li>
                                   </ul>
                                   <div class="con-frm-btn has-text-centered pricing-action">
