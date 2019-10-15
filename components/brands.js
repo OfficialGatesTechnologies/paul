@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../styles/styles.scss';
-import Link from 'next/link';
 import { withRouter } from 'next/router';
 import AliceCarousel from 'react-alice-carousel';
-import $ from 'jquery';
+import ScrollAnimation from 'react-animate-on-scroll';
+
 export default withRouter(class Header extends Component {
 
     constructor(props) {
@@ -24,12 +24,15 @@ export default withRouter(class Header extends Component {
         return (
 
             <div>
+               
                 <section className="startup-sec brands py-5">
+               
                     <div className="sec-ttl has-text-centered">
                         <h1 className="ttl-head">More Than Top 20 Brands Have Trusted Our Services.</h1>
                         <p className="ttl-p mx-610">Our dedication & commitment towards our target makes us shinier in the world of 
 technology and has led us to establish success stories consecutively.</p>
                     </div>
+                    <ScrollAnimation animateIn="slideInRight" initiallyVisible={false} animateOnce ="true">
                     <div className="container">
 
                         <div className="brands-carousel mx-800">
@@ -50,7 +53,9 @@ technology and has led us to establish success stories consecutively.</p>
                         </div>
 
                     </div>
+                    </ScrollAnimation>
                 </section>
+                
             </div>
         )
     }

@@ -13,7 +13,7 @@ import Testimonials from '../components/testimonials';
 import Con_form from '../components/con-form';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
+
 export default withRouter(class Index extends Component {
     componentDidMount = () => {
     }
@@ -31,8 +31,11 @@ export default withRouter(class Index extends Component {
  
                 <div className="main-wrap">
                     <Banner/>
+                   
                     <Win_deeds/>
+                    
                     <Startup_sec/>
+                    
                     <Our_rec/>
                     <Our_work/>
                     <Pack_service/>

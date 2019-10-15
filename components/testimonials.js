@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import '../styles/styles.scss';
-import Link from 'next/link';
 import { withRouter } from 'next/router';
 import AliceCarousel from 'react-alice-carousel';
-import $ from 'jquery';
+import ScrollAnimation from 'react-animate-on-scroll';
 export default withRouter(class Header extends Component {
 
     constructor(props) {
@@ -24,9 +23,11 @@ export default withRouter(class Header extends Component {
 
             <div>
                 <section className="startup-sec testimonials py-5">
+              
                     <div className="sec-ttl testimonial-ttl has-text-centered">
                         <h1 className="ttl-head">Happy Face of Our Client’s</h1>
                     </div>
+                    <ScrollAnimation animateIn="slideInLeft" initiallyVisible={false} animateOnce ="true">
                     <div className="container">
 
                         <div className="testimonial-carousel mx-900">
@@ -65,6 +66,7 @@ constant communication in order to have your idea being put into a concrete work
                         </div>
 
                     </div>
+                    </ScrollAnimation>
                 </section>
             </div>
         )

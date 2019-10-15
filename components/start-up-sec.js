@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import '../styles/styles.scss';
-import Link from 'next/link';
 import { withRouter } from 'next/router';
-
+import WebSectionThree from '../components/web-section-three';
+import Whychooseus from'../components/why-choose-us';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
+import ScrollAnimation from 'react-animate-on-scroll';
  
 export default withRouter(class Header extends Component {
 
@@ -25,16 +26,41 @@ export default withRouter(class Header extends Component {
 
             <div>
                 <section className="startup-sec">
-                    <div className="sec-ttl sec-ttl-01 has-text-centered py-5">
-                        <h1 className="ttl-head">Passion To Drive Small Startups Into Unicorns Comes With PAULTECH!</h1>
-                        <p className="ttl-p mx-410">We develop apps which get trending & multiply your ROI, turn your 
-customers delighted & make you Brand Visible.</p>
+                 
+                    <div className="sec-ttl sec-ttl-01 has-text-centered py-5 container">
+                    <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
+                        <h1 className="ttl-head">Welcome to WebsitePilot.co.uk</h1>
+                        <p className="ttl-p mg-b-10 mx-1000">At WebsitePilot we specialise in Website Design and Development, Search-Engine-
+                        Optimisation (SEO) and Pay-per-Click (PPC). 
+                        </p>
+                        <p className="ttl-p mg-b-10 mx-1000">
+                        Our passion is taking the stress away by helping your local business to get online and to start
+                        building your online presence, generating leads and growing your business without having
+                        to worry about any of the technical side.
+                        </p>
+                        <p className="ttl-p mg-b-10 mx-1000">
+                        We have helped other local businesses go from zero online presence to receiving calls and
+leads within days of their website going live.
+                        </p>
+                        <p className="ttl-p mg-b-10 mx-1000">
+                        Our aim is not just to build you a website and then leave you to it. We want to see your
+website and business grow. That’s we also offer packages for SEO, which will help your
+website rank naturally higher in Google for your target search terms over a longer period
+and PPC, which enables you to be in the top positions on Google as soon as your website
+goes live.
+                        </p>
+                        </ScrollAnimation>
                     </div>
+                    
                     <div className="container">
+                    <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                         <div className="dia has-text-centered">
                          <img src="../static/images/dia-01.png" alt="image"/>
                         </div>
+                         </ScrollAnimation>
                     </div>
+                    <WebSectionThree />
+                    <Whychooseus />
                     <div className="por-count-wrap py-5">
                         <div className="container">
                             <div className="mx-1000">
@@ -94,6 +120,7 @@ customers delighted & make you Brand Visible.</p>
                     <div className="startup-grid py-5">
                         <div className="container">
                             <div className="mx-1000">
+                            <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                 <div className="columns is-multiline">
                                     <div className="column is-6-tablet">
                                         <div className="startup-grid-in">
@@ -142,6 +169,7 @@ customers delighted & make you Brand Visible.</p>
                                         </div>
                                     </div>
                                 </div>
+                                </ScrollAnimation>
                             </div>
                         </div>
                     </div>

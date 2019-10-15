@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Head from 'next/head';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
+import ScrollAnimation from 'react-animate-on-scroll';
 export default withRouter(class Index extends Component {
 
     constructor(props) {
@@ -36,9 +37,12 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="columns is-multiline is-vcentered">
                                         <div className="column is-6-desktop">
+                                        <ScrollAnimation animateIn="flipInX" delay={1000} initiallyVisible={false} animateOnce ="true">
                                         <div className="abt-img"><img src="../static/images/others/about.png" alt="img"/></div>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="column is-6-desktop">
+                                        <ScrollAnimation animateIn="flipInX" delay={1000} initiallyVisible={false} animateOnce ="true">
                                             <div className="abt-top-cnt">
                                                 <h6>About us</h6>
                                                 <h1>Take a quick tour of about us!</h1>
@@ -50,6 +54,7 @@ export default withRouter(class Index extends Component {
                                                         <li>Maecenas tempus, tellus eget condimentum rhoncus</li>
                                                     </ul>
                                             </div>
+                                            </ScrollAnimation>
                                         </div>
                                     </div>
                                    
@@ -57,6 +62,7 @@ export default withRouter(class Index extends Component {
                                     <div className="abt-grid-sec pt-5">
                                         <div className="columns is-multiline">
                                             <div className="column is-full-tablet is-4-desktop">
+                                            <ScrollAnimation delay={1500} animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                                                 <div className="abt-grid-wrap">
                                                     <div className="abt-grid-img abt-grid-img-01">
                                                         <span>01</span>
@@ -66,8 +72,10 @@ export default withRouter(class Index extends Component {
                                                         <p>Quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>
                                                     </div>
                                                 </div>
+                                                </ScrollAnimation>
                                             </div>
                                             <div className="column is-full-tablet is-4-desktop">
+                                            <ScrollAnimation delay={1500} animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                                                 <div className="abt-grid-wrap">
                                                     <div className="abt-grid-img abt-grid-img-02">
                                                         <span>02</span>
@@ -77,8 +85,10 @@ export default withRouter(class Index extends Component {
                                                         <p>Quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>
                                                     </div>
                                                 </div>
+                                                </ScrollAnimation>
                                             </div>
                                             <div className="column is-full-tablet is-4-desktop">
+                                            <ScrollAnimation delay={1500} animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                                                 <div className="abt-grid-wrap">
                                                     <div className="abt-grid-img abt-grid-img-03">
                                                         <span>03</span>
@@ -88,6 +98,7 @@ export default withRouter(class Index extends Component {
                                                         <p>Quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>
                                                     </div>
                                                 </div>
+                                                </ScrollAnimation>
                                             </div>
                                         </div>
                                         

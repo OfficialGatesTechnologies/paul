@@ -37,7 +37,9 @@ export default withRouter(class Header extends Component {
             <div className="navbar-end">
                 <div id="navbarBasicExample" className={this.state.activeClass ? 'navbar-menu is-active': 'navbar-menu'}>
                     <div className="m-scroll navbar-start">
+                    
                     <Link href="about"><a className="navbar-item">About</a></Link>
+                    <Link href="website-design"><a className="navbar-item">Website Design</a></Link>   
                     <div className="navbar-item has-dropdown is-hoverable">
                         <Link href="services"><a className="navbar-link">Services</a></Link>
                         <div className="navbar-dropdown">

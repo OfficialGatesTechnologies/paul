@@ -3,6 +3,7 @@ import '../styles/styles.scss'
 import Link from 'next/link';
 import AliceCarousel from 'react-alice-carousel';
 import { withRouter } from 'next/router';
+import ScrollAnimation from 'react-animate-on-scroll';
  export default withRouter(class Header extends Component {
  
      
@@ -24,10 +25,11 @@ import { withRouter } from 'next/router';
         return (
 
             <div>
- 
-
+   
+   <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
 <div className="banner-carousel work-carousel">
 <div className="container">
+
     <AliceCarousel responsive={this.state.ourWork} mouseDragEnabled  buttonsDisabled ={true}>
     
         <div className="banner-items columns">
@@ -64,8 +66,13 @@ Real Estate, Bus booking.</p>
             </div>
             </div>
             <div className="banner-items columns">
-            <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-two-fifths-desktop"><img src="../static/images/others/work-01.png"/></div>
+            <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-two-fifths-desktop">
+            
+                 <img src="../static/images/others/work-01.png"/>
+               
+                </div>
             <div className="banner-txt our-work-txt column has-text-centered-mobile">
+           
                 <div className="o-wk-logo">
                     <div className="o-wk-logo-img">
                         <img src="../static/images/others/work-logo-01.png"/>
@@ -93,7 +100,7 @@ Real Estate, Bus booking.</p>
                         </li>
                     </ul>
                 </div>
-                
+               
             </div>
             </div>
             <div className="banner-items columns">
@@ -129,11 +136,12 @@ Real Estate, Bus booking.</p>
                 
             </div>
             </div>
+          
     </AliceCarousel>
     
     </div>
     </div>
-
+    </ScrollAnimation>
     </div>
         )
         

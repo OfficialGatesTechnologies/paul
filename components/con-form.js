@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import '../styles/styles.scss';
 import Link from 'next/link';
 import { withRouter } from 'next/router';
-
-import $ from 'jquery';
+import ScrollAnimation from 'react-animate-on-scroll';
 export default withRouter(class Header extends Component {
 
     constructor(props) {
@@ -22,6 +21,7 @@ export default withRouter(class Header extends Component {
 
             <div>
                 <section className="startup-sec py-5">
+               
                 <div className="container">
                     <div className="g-ad has-text-centered">
                          <img src="../static/images/ad-02.png" alt="image"/>
@@ -32,7 +32,7 @@ export default withRouter(class Header extends Component {
                         <p className="ttl-p mx-610">Our dedication & commitment towards our target makes us shinier in the world of 
 technology and has led us to establish success stories consecutively.</p>
                     </div>
-
+                    <ScrollAnimation animateIn="bounce" initiallyVisible={false} animateOnce ="true">
                     <div className="container">
                         <div className="con-form mx-720">
                             <div className="columns">
@@ -85,7 +85,7 @@ technology and has led us to establish success stories consecutively.</p>
                             </div>
                         </div>
                     </div>
-
+                    </ScrollAnimation>
                 </section>
             </div>
         )

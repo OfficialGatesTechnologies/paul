@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import '../styles/styles.scss';
-import Link from 'next/link';
-import { render } from 'react-dom';
 import Tabs from 'react-responsive-tabs';
- 
 import { withRouter } from 'next/router';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
+import ScrollAnimation from 'react-animate-on-scroll';
 export default withRouter(class Header extends Component {
 
     constructor(props) {
@@ -70,15 +68,19 @@ export default withRouter(class Header extends Component {
 
             <div>
                 <section className="startup-sec py-5">
+                
                 <div className="sec-ttl has-text-centered">
                     <h1 className="ttl-head">Package Of Services Which Accomplish Every Business Need</h1>
                     <p className="ttl-p mx-610">Work reflects the brand, the services which we equip comes from the brilliance of the 
 team which turns our viewers into elated customers.</p>
                 </div>
+               
                 <div className="container">
                 <div className="mx-1000">
                     <div className="pack-tab has-text-centered">
+                    <ScrollAnimation delay={1000} initiallyVisible={false} animateOnce ="true" animateIn="bounceIn">
                         <Tabs items={this.getTabs()} />
+                        </ScrollAnimation>
                     </div>
                     </div>
                 </div>

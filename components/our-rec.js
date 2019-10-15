@@ -3,8 +3,7 @@ import '../styles/styles.scss';
 import Link from 'next/link';
 import AliceCarousel from 'react-alice-carousel';
 import { withRouter } from 'next/router';
-
-import $ from 'jquery';
+import ScrollAnimation from 'react-animate-on-scroll';
 export default withRouter(class Header extends Component {
 
     constructor(props) {
@@ -24,7 +23,9 @@ export default withRouter(class Header extends Component {
         return (
 
             <div>
+               
                 <section className="startup-sec py-5">
+                
                 <div className="container">
                     <div className="g-ad has-text-centered">
                          <img src="../static/images/ad-01.png" alt="image"/>
@@ -37,6 +38,7 @@ export default withRouter(class Header extends Component {
 the accelerator that keeps us moving towards success.</p>
                     </div>
                     </div>
+                    <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                     <div className="container">
                     <div className="our-rec-slider has-text-centered">
                         <AliceCarousel responsive={this.state.ourRecItems} mouseDragEnabled  buttonsDisabled ={true}>
@@ -76,8 +78,9 @@ the accelerator that keeps us moving towards success.</p>
                         </AliceCarousel>
                     </div>
                     </div>
-
+                    </ScrollAnimation>
                 </section>
+                
             </div>
         )
     }

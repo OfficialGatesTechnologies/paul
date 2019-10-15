@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import '../styles/styles.scss';
 import ReactSVG from 'react-svg';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 const Footer = () => (      
     <div>
         <footer className="footer footer-cus">
+        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
           <div className="container p-0">
                 <div className="columns is-multiline">
                   <div className="foo-col-01 foo-cmn-s column is-one-third-tablet is-3-desktop">
@@ -79,6 +80,7 @@ const Footer = () => (
                   <p>&copy; 2019 Paul. All Rights Reserved.</p>
               </div>
           </div>
+          </ScrollAnimation>
       </footer>
 
 
