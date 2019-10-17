@@ -1,18 +1,16 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
 import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default withRouter(class Index extends Component {
 
@@ -88,13 +86,17 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/iphone-head.svg" alt="i"/> </div>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <h4>Top-Notch iPhone App Development Company</h4>
+                        </ScrollAnimation>
+                            
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>Creating chartbuster iPhone Applications that rule AppStore</h4>
                             <p>Almost 120+ mobile applications ships to App Store, Paul is the Top iPhone App Development Company providing cost-effective and robust solutions to various industries including Enterprise Businesses and Startups. Our Team of iPhone App Developers is well versed in the latest technology and frameworks of iOS including UIKit, CocoaTouch, HealthKit, ARKit, and WatchKit.</p>
@@ -103,6 +105,7 @@ export default withRouter(class Index extends Component {
                             <p>Our experienced iOS Developers always make themselves updated with the latest technology be it C, Objective C or Swift and emerging frameworks so that they can leverage the applications with the benefits of them. You can count your application success on us.</p>
                             <p>Paul is a top-ranked iOS App Development Company in India and in the world having flourishing centers in the USA, UAE, Canada, and Australia, widely acclaimed for its innovative iOS App Development Services that are expandable & extremely useful in catering growing businesses & startups with the ability to attain maximum productivity.</p>
                             </div>
+                        </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
@@ -127,7 +130,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>

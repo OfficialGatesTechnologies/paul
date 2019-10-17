@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Win_deeds from '../components/win-deeds';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default withRouter(class Index extends Component {
 
@@ -45,12 +45,16 @@ export default withRouter(class Index extends Component {
                       alt="i"
                     />{" "}
                   </div>
+                  <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                   <h4>Social Networking App Development</h4>
+                  </ScrollAnimation>
+                  
                 </div>
               </div>
 
               <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                 <div className="page-main-cnt pb-5 pb-m-2">
+                <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                   <div className="container">
                     <h4>
                     Provide Robust Connectivity through Viable Technology.
@@ -72,15 +76,19 @@ export default withRouter(class Index extends Component {
                     Paul has molded itself according to the industry demands & holds a vital place among top app development companies. In order to always stand on top, our technical geeks cater you with multifarious social networking apps to satisfy business objectives. We consider every aspect and your specific need while developing a social media app that gives a return on investment.
                     </p>
                   </div>
+                  </ScrollAnimation>
                 </div>
                 {/* Work Case study section */}
                 <div className="banner-carousel work-carousel inner-work">
                   <div className="container">
                     <div className="banner-items columns">
                       <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-two-fifths-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                         <img src="../static/images/others/rehmie-mob-iot.png" />
+                      </ScrollAnimation>
                       </div>
                       <div className="banner-txt our-work-txt column has-text-centered-mobile">
+                      <ScrollAnimation animateIn="slideInRight" initiallyVisible={false} animateOnce ="true">
                         <div className="o-wk-logo">
                           <div className="o-wk-logo-img">
                             <img src="../static/images/others/work-logo-01.png" />
@@ -123,6 +131,7 @@ export default withRouter(class Index extends Component {
                           </span>
                           <p>Social Networking</p>
                         </div>
+                        </ScrollAnimation>
                       </div>
                     </div>
                   </div>
@@ -134,39 +143,55 @@ export default withRouter(class Index extends Component {
                   <div className="container">
                     <div className="mx-1000">
                       <div className="sec-ttl has-text-centered">
+                      <ScrollAnimation animateIn="fadeInRight" initiallyVisible={false} animateOnce ="true">
                         <h1 className="ttl-head">
                         Social Networking App Development Features
                         </h1>
                         <p className="ttl-p mx-610">
                         With a specific end goal to make a social networking application effective, it requires including rich and mainstream highlights in light of the desire for your end clients. Some key highlights are
                         </p>
+                        </ScrollAnimation>
                       </div>
                       <div className="com-res py-5 py-m-3 pb-0">
                         <div className="columns is-multiline">
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Quick Profile Generation</h5>
+                            </ScrollAnimation>
                           </div>
                          
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Secure Login & Secure Access</h5>
+                            </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Easy To Connect With Group Chats</h5>
+                            </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Google Map Integration</h5>
+                            </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Advanced Search Criteria</h5>
+                            </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Create & Manage Events</h5>
+                            </ScrollAnimation>
                           </div>
                         </div>
                         <div className="columns is-mobile is-centered">
                         <div className="bg-color-theme">
-                        <a className="theme-color ban-theme-btn" href="#">View Our Work</a>
-                        <a className="theme-color ban-theme-btn" href="#">Contact Us</a>
+                        <ScrollAnimation animateIn="tada" initiallyVisible={false} animateOnce ="true">
+                          <a className="theme-color ban-theme-btn" href="#">View Our Work</a>
+                          <a className="theme-color ban-theme-btn" href="#">Contact Us</a>
+                        </ScrollAnimation>
                         </div>
                         
                         </div>

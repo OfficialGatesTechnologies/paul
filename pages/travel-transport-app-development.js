@@ -5,7 +5,7 @@ import Win_deeds from '../components/win-deeds';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
 
-
+import ScrollAnimation from 'react-animate-on-scroll';
 export default withRouter(class Index extends Component {
 
     constructor(props) {
@@ -45,12 +45,16 @@ export default withRouter(class Index extends Component {
                       alt="i"
                     />{" "}
                   </div>
+                  <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                   <h4>Travel-transport-app-development</h4>
+                  </ScrollAnimation>
+                  
                 </div>
               </div>
 
               <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                 <div className="page-main-cnt pb-5 pb-m-2">
+                <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                   <div className="container">
                     <h4>
                     Masters At, Travel & Transport App Development That Engage & Delight Users
@@ -71,15 +75,19 @@ export default withRouter(class Index extends Component {
                     With the hands of talented & keen technical geeks, we develop user-centric apps which include many features that user would love to use, such as cashless transaction, quick booking, easy navigation, smart tracing and many more.
                     </p>
                   </div>
+                  </ScrollAnimation>
                 </div>
                 {/* Work Case study section */}
                 <div className="banner-carousel work-carousel inner-work">
                   <div className="container">
                     <div className="banner-items columns">
                       <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-two-fifths-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                         <img src="../static/images/others/rehmie-mob-iot.png" />
+                        </ScrollAnimation>
                       </div>
                       <div className="banner-txt our-work-txt column has-text-centered-mobile">
+                      <ScrollAnimation animateIn="slideInRight" initiallyVisible={false} animateOnce ="true">
                         <div className="o-wk-logo">
                           <div className="o-wk-logo-img">
                             <img src="../static/images/others/work-logo-01.png" />
@@ -132,6 +140,7 @@ export default withRouter(class Index extends Component {
                           </span>
                           <p>Travel & Transport</p>
                         </div>
+                        </ScrollAnimation>
                       </div>
                     </div>
                   </div>
@@ -144,38 +153,54 @@ export default withRouter(class Index extends Component {
                   <div className="container">
                     <div className="mx-1000">
                       <div className="sec-ttl has-text-centered">
+                      <ScrollAnimation animateIn="fadeInRight" initiallyVisible={false} animateOnce ="true">
                         <h1 className="ttl-head">
                         Travel & Hospitality App Development Features
                         </h1>
                         <p className="ttl-p mx-610">
                         Fact is, the need for quality mobile sales experiences is in high demand and in terms of comparing mobile sales experience quality, and nothing beats a Travel & Transportation App Development. Some key Features are:
                         </p>
+                        </ScrollAnimation>
                       </div>
                       <div className="com-res py-5 py-m-3 pb-0">
                         <div className="columns is-multiline">
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Secure Login, Filter & Search</h5>
+                            </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Travel Itinerary Generator</h5>
+                            </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Geo-Tracking Services</h5>
+                            </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>In-App Language Translator</h5>
+                            </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Location-Based Services</h5>
+                            </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Messaging Services</h5>
+                            </ScrollAnimation>
                           </div>
                         </div>
                         <div className="columns is-mobile is-centered">
                         <div className="bg-color-theme">
+                        <ScrollAnimation animateIn="tada" initiallyVisible={false} animateOnce ="true">
                         <a className="theme-color ban-theme-btn" href="#">View Our Work</a>
                         <a className="theme-color ban-theme-btn" href="#">Contact Us</a>
+                        </ScrollAnimation>
                         </div>
                         
                         </div>

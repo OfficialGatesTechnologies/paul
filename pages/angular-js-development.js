@@ -1,19 +1,16 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
 import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 export default withRouter(class Index extends Component {
 
     constructor(props) {
@@ -87,13 +84,16 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/angular-dev.svg" alt="i"/> </div>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <h4>Angular JS Development</h4>
+                        </ScrollAnimation>
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>Touch height of success with Angular JS at Paul only.</h4>
                             <p>Google's boon, Angular JS is a JavaScript-based open-source front-end web app framework that tackles challenges encountered during developing single-page applications and also enables dynamic views in web apps. The framework helps extend HTML vocabulary, build well-structured & rich apps in an expressive & readable environment.</p>
@@ -101,6 +101,7 @@ export default withRouter(class Index extends Component {
                             <p>Our specialist developers follow agile processes and efficient approaches to bring onwards a solution that's admired by your audience. Our technical savvies develop high-end web apps using the extreme flexibility of Angular JS. The team is equipped with the latest resources and advanced tools that help us offer Angular JS development solutions & services with the great ability, agility & ease.</p>
                             <p>As a leading Angular JS development company, Paul strives to translate maximum benefits of Angular JS through our resourceful web development services all across the world including USA, UAE, Germany, and Canada.</p>
                             </div>
+                        </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
@@ -125,7 +126,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>

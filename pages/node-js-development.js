@@ -1,19 +1,16 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
 import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 export default withRouter(class Index extends Component {
 
     constructor(props) {
@@ -87,13 +84,17 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/nodejs-dev.svg" alt="i"/> </div>
-                            <h4>NodeJS Web Development</h4>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
+                        <h4>NodeJS Web Development</h4>
+                        </ScrollAnimation>
+                            
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>Developing Extremely Real-Time Web Apps with Highly Speedup Node JS</h4>
                             <p>Node JS development surpasses real-time Web APIs & server-side applications. It is a runtime system, used to build a network or other event-driven application servers. Along with event-driven structure, the runtime environment ensures to be efficient, thereby making it perfect for data-intensive real-time apps to be used across multiple devices.</p>
@@ -101,6 +102,7 @@ export default withRouter(class Index extends Component {
                             <p>Being a best Node JS development company, Paul has backed by proficient & talented developers, who understand your business needs and develop fast, scalable and real-time applications that help you to acquire measurable success</p>
                             <p>Having a panache for the node.js development projects, the versatility of our developers lies in procuring the business aims with Node.js development & has been successfully rendering Node JS development services all across the globe including USA, UAE, Germany, and Canada.</p>
                             </div>
+                            </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
@@ -125,7 +127,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>

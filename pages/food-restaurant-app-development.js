@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Win_deeds from '../components/win-deeds';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default withRouter(class Index extends Component {
 
@@ -45,12 +45,16 @@ export default withRouter(class Index extends Component {
                       alt="i"
                     />{" "}
                   </div>
-                  <h4>Food & Restaurant App Development</h4>
+                  <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
+                      <h4>Food & Restaurant App Development</h4>
+                  </ScrollAnimation>
+                  
                 </div>
               </div>
 
               <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                 <div className="page-main-cnt pb-5 pb-m-2">
+                <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                   <div className="container">
                     <h4>
                     Taste the Best with the Quicker Delivery Service via Our Mobility Solutions.
@@ -71,15 +75,19 @@ export default withRouter(class Index extends Component {
                     The app we develop provides smooth user-interface and consists of varied features right from table wait-list turnover to dinner table analytics and more to let you offer remarkable service to guests. We serve restaurant solution so that you serve your guests better.
                     </p>
                   </div>
+                  </ScrollAnimation>
                 </div>
                 {/* Work Case study section */}
                 <div className="banner-carousel work-carousel inner-work">
                   <div className="container">
                     <div className="banner-items columns">
                       <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-two-fifths-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                         <img src="../static/images/others/rehmie-mob-iot.png" />
+                      </ScrollAnimation>
                       </div>
                       <div className="banner-txt our-work-txt column has-text-centered-mobile">
+                      <ScrollAnimation animateIn="slideInRight" initiallyVisible={false} animateOnce ="true">
                         <div className="o-wk-logo">
                           <div className="o-wk-logo-img">
                             <img src="../static/images/others/work-logo-01.png" />
@@ -132,6 +140,7 @@ export default withRouter(class Index extends Component {
                           </span>
                           <p>Food & Restaurants</p>
                         </div>
+                        </ScrollAnimation>
                       </div>
                     </div>
                   </div>
@@ -144,38 +153,54 @@ export default withRouter(class Index extends Component {
                   <div className="container">
                     <div className="mx-1000">
                       <div className="sec-ttl has-text-centered">
+                      <ScrollAnimation animateIn="fadeInRight" initiallyVisible={false} animateOnce ="true">
                         <h1 className="ttl-head">
                         Food & Restaurnt App Development Features
                         </h1>
                         <p className="ttl-p mx-610">
                         In order to make food delivery as much easy to users, apps are the best way to serve. Mobile apps which we deliver include:
                         </p>
+                        </ScrollAnimation>
                       </div>
                       <div className="com-res py-5 py-m-3 pb-0">
                         <div className="columns is-multiline">
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Restaurant Management</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Waiter Tracking</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Customer Engagement</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Kitchen Dashboard</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Managing Cash Inflow</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Navigation & Search Option</h5>
+                          </ScrollAnimation>
                           </div>
                         </div>
                         <div className="columns is-mobile is-centered">
                         <div className="bg-color-theme">
-                        <a className="theme-color ban-theme-btn" href="#">View Our Work</a>
-                        <a className="theme-color ban-theme-btn" href="#">Contact Us</a>
+                        <ScrollAnimation animateIn="tada" initiallyVisible={false} animateOnce ="true">
+                          <a className="theme-color ban-theme-btn" href="#">View Our Work</a>
+                          <a className="theme-color ban-theme-btn" href="#">Contact Us</a>
+                        </ScrollAnimation>
                         </div>
                         
                         </div>

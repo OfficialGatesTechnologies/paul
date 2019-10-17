@@ -1,7 +1,6 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
@@ -13,6 +12,7 @@ import Link from 'next/link'
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default withRouter(class Index extends Component {
 
@@ -83,19 +83,23 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/mob-dev-01.svg" alt="i"/> </div>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <h4>Mobile and Web App Development Services</h4>
+                        </ScrollAnimation>
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>Leverage Bespoke App Development Services for Noteworthy Business Obligation</h4>
                             <p>Marshaled in developing ace mobile and web application, that accelerates productivity & adaptability of an app idea to the next dimension.</p>
                             <p>Paul conveys an entire lifecycle of inventive mobile app & web development services, bridling innovative ability to tap the maximum capacity of mobile devices for Enterprises and Startups.</p>
                             <p>We practice the agile approach in providing the diverse level of app development services including Designing & Discovery, Native iOS app development, Native Android app development, Mobile consulting services, UI UX designs, Product planning & strategy building, so that our end customers could leverage full-fledged app development from tip to toe.</p>
                             </div>
+                            </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
@@ -117,7 +121,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/an-app-dev.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>App Development</h4>
@@ -128,7 +134,11 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                                 <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/app-dev-ser-01.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/app-dev-ser-01.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Feasible Analysis</h5>
                                                     <p>By availing into account requirements of various stakeholders and user experiences, we determine the catalyst factor of a project's success.</p>
@@ -137,7 +147,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/app-dev-ser-02.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                    <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/app-dev-ser-02.png" alt="i"/>
+                                                    </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Prototyping</h5>
                                                     <p>Avail intuitive working model of an app idea to give a real feeling of interactions with professional touch.</p>
@@ -146,7 +160,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/android-dev-01.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/android-dev-01.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>App Development</h5>
                                                     <p>Building mobile app with blend of latest technologies and agility in the development process makes us dent the stores with every new app release.</p> 
@@ -155,7 +173,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-dev-05.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/hybird-dev-05.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Maintenance & Support</h5>
                                                     <p>App launch is not a single shot game, it required continuous improvement and enhancement to retain the floor of success we are pioneer in the same.</p> 
@@ -164,7 +186,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/ios-dev-05.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/ios-dev-05.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>QA & Testing</h5>
                                                     <p>Eradicate bugs & baffles from your business apps swiftly & efficiently with our proven quality assurance & testing services.</p>
@@ -174,7 +200,9 @@ export default withRouter(class Index extends Component {
                                         </div>
                                     </div>
                                     <div className="ser-btn">
+                                    <ScrollAnimation animateIn="tada" initiallyVisible={false} animateOnce ="true">
                                         <Link href="application-development"><a className="theme-color ban-theme-btn">Read More</a></Link>
+                                    </ScrollAnimation>
                                     </div>
                                 </div>
                             </div>
@@ -182,7 +210,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/o-web-dev.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>Web Development</h4>
@@ -193,7 +223,11 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                                 <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/web-dev-ser-01.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/web-dev-ser-01.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Technology Consulting</h5>
                                                     <p>With the hand of our consulting expertise, transform web app development technology into an enterprise issue-resolver for transforming business challenges into opportunities.</p> 
@@ -202,7 +236,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/react-dev2-02.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/react-dev2-02.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Architecture Designing</h5>
                                                     <p>Conveying the most advanced architecture design to re-imagination & revolutionize the way a web app may associate with users.</p>
@@ -211,7 +249,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/o-web-dev-03.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/o-web-dev-03.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Web App Development</h5>
                                                     <p>Designing a seamless web app so that the total time to place web apps in motion is brought down to a minimum.</p>
@@ -220,7 +262,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/react-dev3.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/react-dev3.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Web Revamping</h5>
                                                     <p>We transform the older experience into the novel one by providing staggering idea & innovations in a specific manner to create a new picture.</p> 
@@ -229,7 +275,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-dev-05.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/hybird-dev-05.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Support & Maintenance</h5>
                                                     <p>Along with innovative web app development, we even have the right processes in place to ensure that every web app performs brilliantly daily.</p> 
@@ -239,7 +289,9 @@ export default withRouter(class Index extends Component {
                                         </div>
                                     </div>
                                     <div className="ser-btn">
+                                    <ScrollAnimation animateIn="tada" initiallyVisible={false} animateOnce ="true">
                                         <Link href="website-development"><a className="theme-color ban-theme-btn">Read More</a></Link>
+                                        </ScrollAnimation>
                                     </div>
                                 </div>
                             </div>
@@ -247,7 +299,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/hybird-lvl2-dev.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>Hybrid App Development</h4>
@@ -258,7 +312,11 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                                 <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/o-web-dev-02.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/o-web-dev-02.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Design & Development</h5>
                                                     <p>Experience the Robust technology & artistic design for the extra-ordinary performance of the mobile apps.</p> 
@@ -267,7 +325,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hy-dev-ser-02.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/hy-dev-ser-02.png" alt="i"/>
+                                                    </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Porting</h5>
                                                     <p>Having expertise in the field of porting & enable to port apps on different operating systems, platforms & environment</p> 
@@ -276,7 +338,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/an-app-suc.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/an-app-suc.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>App Testing</h5>
                                                     <p>We adheres strategy driven approach to check the computability with the different devices.</p> 
@@ -285,7 +351,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-dev-05.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/hybird-dev-05.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Support & Maintenance</h5>
                                                     <p>Eager to support & always ready to deal with any type of maintenance & support challenges.</p> 
@@ -295,7 +365,9 @@ export default withRouter(class Index extends Component {
                                         </div>
                                     </div>
                                     <div className="ser-btn">
+                                    <ScrollAnimation animateIn="tada" initiallyVisible={false} animateOnce ="true">
                                         <Link href="hybrid-app-development"><a className="theme-color ban-theme-btn">Read More</a></Link>
+                                        </ScrollAnimation>
                                     </div>
                                 </div>
                             </div>
@@ -303,7 +375,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/iot.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>IoT</h4>
@@ -314,7 +388,11 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                                 <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/web-dev-ser-01.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/web-dev-ser-01.png" alt="i"/>
+                                                    </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Consultation</h5>
                                                     <p>Endow with consulting services & create IoT path that helps in executing successful strategy for IoT.</p> 
@@ -323,7 +401,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-lvl2-dev-04.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/hybird-lvl2-dev-04.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Implementation</h5>
                                                     <p>Survey the diverse components of IoT like standards, network, sensors to discard any kind of hurdles comes in the way of its Implementation.</p> 
@@ -333,7 +415,9 @@ export default withRouter(class Index extends Component {
                                         </div>
                                     </div>
                                     <div className="ser-btn">
+                                    <ScrollAnimation animateIn="tada" initiallyVisible={false} animateOnce ="true">
                                         <Link href="iot-app-development"><a className="theme-color ban-theme-btn">Read More</a></Link>
+                                    </ScrollAnimation>
                                     </div>
                                 </div>
                             </div>
@@ -341,7 +425,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/q-ass.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>Quality Assurance and Testing</h4>
@@ -352,7 +438,11 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                                 <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/q-ass-ser-01.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/q-ass-ser-01.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>QA Strategy</h5>
                                                     <p>Provide mobile app strategy reference document that describes the scope, approach, resources, and schedule of an intended test activity</p> 
@@ -361,7 +451,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/q-ass-ser-02.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/q-ass-ser-02.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>QA Assurance</h5>
                                                     <p>We evaluate mobile apps based on certain attributes to check its usability in operational mode, aligned to user's prerequisite.</p> 
@@ -370,7 +464,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/q-ass-ser-03.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/q-ass-ser-03.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>QA Control</h5>
                                                     <p>Endeavoring a set of procedure to deploy apps that match quality business goals at the best value to our valued customer.</p> 
@@ -380,7 +478,9 @@ export default withRouter(class Index extends Component {
                                         </div>
                                     </div>
                                     <div className="ser-btn">
+                                    <ScrollAnimation animateIn="tada" initiallyVisible={false} animateOnce ="true">
                                         <Link href="quality-assurance"><a className="theme-color ban-theme-btn">Read More</a></Link>
+                                        </ScrollAnimation>
                                     </div>
                                 </div>
                             </div>
@@ -388,7 +488,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/o-web-dev-02.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>UI & UX</h4>
@@ -399,7 +501,11 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                                 <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/ui-ser-01.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/ui-ser-01.png" alt="i"/>
+                                                    </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Rigorous Research</h5>
                                                     <p>We place ideas through a precise research phase to explore their feasibility to derive out an overwhelming picture.</p> 
@@ -408,7 +514,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/ui-ser-02.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/ui-ser-02.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Interactive Wire-framing</h5>
                                                     <p>We ponder the interactive approach to build interactive wireframes- review the idea, transform design concepts by availing expertise of in-house design specialists.</p>
@@ -417,7 +527,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/ui-ser-03.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/ui-ser-03.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Visual Designing</h5>
                                                     <p>Our designing team pushes their excellence & their creativity limits to create visual designs that deliver results.</p>
@@ -428,7 +542,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/ui-ser-04.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/ui-ser-04.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>User Testing</h5>
                                                     <p>We build the most innovative user interface & experience that comes after testing & optimizing designs.</p>
@@ -437,7 +555,12 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-lvl4-dev-02.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/hybird-lvl4-dev-02.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Integration Assistance</h5>
                                                     <p>Integration Assistance We integrate apps & web services under optimized, enhanced mobile-first interfaces.</p>
@@ -447,7 +570,9 @@ export default withRouter(class Index extends Component {
                                         </div>
                                     </div>
                                     <div className="ser-btn">
+                                    <ScrollAnimation animateIn="tada" initiallyVisible={false} animateOnce ="true">
                                         <Link href="ui-ux-design"><a className="theme-color ban-theme-btn">Read More</a></Link>
+                                        </ScrollAnimation>
                                     </div>
                                 </div>
                             </div>
@@ -463,7 +588,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>

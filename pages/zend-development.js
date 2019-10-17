@@ -1,18 +1,16 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
 import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default withRouter(class Index extends Component {
 
@@ -87,13 +85,16 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/zend-dev.svg" alt="i"/> </div>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <h4>Zend Development</h4>
+                            </ScrollAnimation>
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>Reliable & Robust Zend solution that guarantee top-notch results</h4>
                             <p>Zend framework is considered one of the best PHP frameworks for building high-quality web apps. A preferred choice for both, developers and customers, it offers rich feature-base that lets developers engineer flexible web applications.</p>
@@ -101,6 +102,7 @@ export default withRouter(class Index extends Component {
                             <p>We backed by the strong team of Zend developers, who are expert at Zend framework development services and successfully delivered cutting-edge projects to our world-wide customers. We have delivered forefront projects to our global clients. Our Zend developers are tremendously proficient and veteran at developing scalable and robust applications. Our experience speaks for our expertise, effectiveness, and reliability.</p>
                             <p>We are not only rendering the services which come up with the true power of PHP development & MySQL web apps with open-source, robust, object-oriented Zend Framework in India but across many zones of the world including the USA, UAE, Germany & Canada.</p>
                             </div>
+                        </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
@@ -125,7 +127,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>

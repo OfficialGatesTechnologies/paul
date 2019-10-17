@@ -1,18 +1,16 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
 import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default withRouter(class Index extends Component {
 
@@ -87,13 +85,16 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/laravel-dev.svg" alt="i"/> </div>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <h4>Laravel Development Company</h4>
+                        </ScrollAnimation>
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>Gracefully Designed, & Robust Web Apps get developed at high-speed with Laravel only.</h4>
                             <p>As one of the best open-source PHP based web app frameworks, Laravel development is quicker and blessed with MVC architectural pattern. Laravel has been recognized as one of the best frameworks that are being preferred for the development of high-quality websites and trending web applications.</p>
@@ -101,6 +102,7 @@ export default withRouter(class Index extends Component {
                             <p>We empower with the strong team of Laravel developers who are capable of building structurally strong and meaningful applications using Laravel. We build applications that are easy to comprehend, utilize, edit & update. Rapid application development is possible via Laravel, which adds so much more from the development aspect. Regardless of complexities and challenges, our team puts in efforts to get desired outcomes using their hand-on-expertise working with Laravel.</p>
                             <p>We have worked across multiple industry verticals over the years and helped businesses in diverse domains. We have served a wide range of industries like Banking & Finance, Travel & Transport, E-commerce & Retail, Healthcare and many more. We successfully serving Laravel development not only in India but also across the globe including the USA, UAE, Germany & Canada.</p>
                             </div>
+                            </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
@@ -125,7 +127,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>

@@ -1,18 +1,16 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
 import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default withRouter(class Index extends Component {
 
@@ -83,13 +81,16 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/mob-dev-01.svg" alt="i"/> </div>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <h4>Quality Assurance & Testing</h4>
+                        </ScrollAnimation>
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>We Practice Zero-Bug Release Policy that Allows us to Surpass a Myriad of Competitors.</h4>
                             <p>Quality Assurance & testing of the web & mobile apps is an indispensable part of our development process. To match the high standard & brand image, we deliver high-end quality products.</p>
@@ -100,6 +101,7 @@ export default withRouter(class Index extends Component {
 
 
                             </div>
+                            </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
@@ -127,76 +129,94 @@ export default withRouter(class Index extends Component {
                                     <div className="icon-grid-cnt-main">
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                                                 <div className="icon-grid-cnt-wrap">
                                                 <div className="icon-grid-cnt-in q-ass-cnt-in">
                                                     <h5>Functional Testing</h5>
                                                     <p>With the year of experience & competence in functional testing, Paul ensures that all parts of the product are working accurately after changes without functionality misfortune.</p> 
                                                 </div>
                                                 </div>
+                                            </ScrollAnimation>
                                             </div>
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                                             <div className="icon-grid-cnt-wrap">
                                             <div className="icon-grid-cnt-in q-ass-cnt-in">
                                                     <h5>GUI & Usability Testing</h5>
                                                     <p>Usability is the crucial factor of any web & mobile app that no app development company can dare to ignore, hence to bid the users high-level usability demands, Paul propose testing plan details, in which impression of app use and individuals' feelings activated by the product.</p> 
                                                 </div>
                                                 </div>
+                                                </ScrollAnimation>
                                             </div>
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                                             <div className="icon-grid-cnt-wrap">
                                             <div className="icon-grid-cnt-in q-ass-cnt-in">
                                                     <h5>Accessibility Testing</h5>
                                                     <p>Accessibility should be adequately implemented in the app development algorithm & Paul guaranteeing that the developed web or mobile app is usable by burdened individuals having incapacities like hearing, visual impairment.</p> 
                                                 </div>
                                                 </div>
+                                                </ScrollAnimation>
                                             </div>
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                                             <div className="icon-grid-cnt-wrap">
                                             <div className="icon-grid-cnt-in q-ass-cnt-in">
                                                     <h5>Performance Testing</h5>
                                                     <p>For any mobile app or web app, performance is very pivotal. The performance of the app decides the sojourn time of users on the app. Paul performs exact specialized examination of speed and adaptability, and approving execution attributes.</p> 
                                                 </div>
                                                 </div>
+                                            </ScrollAnimation>
                                             </div>
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                                             <div className="icon-grid-cnt-wrap">
                                             <div className="icon-grid-cnt-in q-ass-cnt-in">
                                                     <h5>Installation & Configuration Testing</h5>
                                                     <p>Paul appreciate that installation & configuration testing is a special variant of App testing to test the performance of a web & mobile app on a machine with different devices, operating systems, supported drivers etc, hence we better look that the app is configured successfully and performing as expected after the installation.</p> 
                                                 </div>
                                                 </div>
+                                            </ScrollAnimation>
                                             </div>
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                                             <div className="icon-grid-cnt-wrap">
                                             <div className="icon-grid-cnt-in q-ass-cnt-in">
                                                     <h5>System & Integration Testing</h5>
                                                     <p>Paul conducts potent system & integration testing on a complete, integrated system & effectively evaluate the system's compliance with the specific requirement and perform consolidation & testing of each smallest testable unit of mobile app in numerous courses.</p> 
                                                 </div>
                                                 </div>
+                                            </ScrollAnimation>
                                             </div>
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                                             <div className="icon-grid-cnt-wrap">
                                             <div className="icon-grid-cnt-in q-ass-cnt-in">
                                                     <h5>Application Security Assurance Testing</h5>
                                                     <p>Paul inserts security in web & mobile app development cycle to wipe out the design defects, oversight, bugs and overseeing related risks and always ensures to eliminate all loopholes in the app that may causes data loss.</p> 
                                                 </div>
                                                 </div>
+                                            </ScrollAnimation>
                                             </div>
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                                             <div className="icon-grid-cnt-wrap">
                                             <div className="icon-grid-cnt-in q-ass-cnt-in">
                                                     <h5>Localization Testing</h5>
                                                     <p>Paul knows that the mobile app localization has to be linguistic, artistic and technical, thus we always adhere the path of customizing localized version of the product for the target culture and language of explicit location</p> 
                                                 </div>
                                                 </div>
+                                            </ScrollAnimation>
                                             </div>
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                                             <div className="icon-grid-cnt-wrap">
                                             <div className="icon-grid-cnt-in q-ass-cnt-in">
                                                     <h5>User Acceptance Testing</h5>
                                                     <p>Paul performs the user acceptance testing via specially developed tools to make mobile app is tested through multiple testing cycles, on multiple platforms, and gratify users stringent deadlines.</p> 
                                                 </div>
                                                 </div>
+                                            </ScrollAnimation>
                                             </div>
                                         </div>
                                     </div>
@@ -214,44 +234,54 @@ export default withRouter(class Index extends Component {
                                     <div className="icon-grid-cnt-main">
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                                                 <div className="icon-grid-cnt-wrap">
                                                 <div className="icon-grid-cnt-in q-ass-cnt-in">
                                                     <h5>Test-Driven Approach</h5>
                                                     <p>We adheres the path of testing which proves that there is no room left for any ambiguity in mobile app performance.</p> 
                                                 </div>
                                                 </div>
+                                                </ScrollAnimation>
                                             </div>
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                                             <div className="icon-grid-cnt-wrap">
                                             <div className="icon-grid-cnt-in q-ass-cnt-in">
                                             <h5>Genuine Tools</h5>
                                                     <p>We equip with the genuine app testing tools that accelerates us on the path of achieving bug-free mobile apps.</p> 
                                                 </div>
                                                 </div>
+                                                </ScrollAnimation>
                                             </div>
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true"> 
                                             <div className="icon-grid-cnt-wrap">
                                             <div className="icon-grid-cnt-in q-ass-cnt-in">
                                             <h5>Localization</h5>
                                                     <p>We test the app in multiple languages that provides mobile app localization.</p> 
                                                 </div>
                                                 </div>
+                                                </ScrollAnimation>
                                             </div>
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                                             <div className="icon-grid-cnt-wrap">
                                             <div className="icon-grid-cnt-in q-ass-cnt-in">
                                             <h5>Ubiquitous Testing</h5>
                                                     <p>We perform ubiquitous testing including fault tolerance, interoperability & battery consumptions</p> 
                                                 </div>
                                                 </div>
+                                                </ScrollAnimation>
                                             </div>
                                             <div className="column is-6-tablet">
+                                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                                             <div className="icon-grid-cnt-wrap">
                                             <div className="icon-grid-cnt-in q-ass-cnt-in">
                                             <h5>Security Assurance:</h5>
                                                     <p>Our user's security is our top priority & we keep app & user data security on our foremost priority.</p>  
                                                 </div>
                                                 </div>
+                                                </ScrollAnimation>
                                             </div>
                                         </div>
                                     </div>
@@ -278,7 +308,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>

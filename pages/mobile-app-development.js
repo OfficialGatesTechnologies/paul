@@ -1,19 +1,16 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
 import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 export default withRouter(class Index extends Component {
 
     constructor(props) {
@@ -83,13 +80,16 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/mob-dev-01.svg" alt="i"/> </div>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <h4>Best Mobile App Development Company</h4>
+                        </ScrollAnimation>
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>Robust, User Centric & Scalable Mobile App Solutions</h4>
                             <p>Smartphone is one of the colossal launch or endowment of the innovation that people are using for their distinctive outline. Paul is among the top market leaders of Mobile App Development Companies, which provide mobility solutions for both the platforms including Native App Development (Android & iOS) and Hybrid App Development for a different spectrum of businesses who are wishing to double their ROI by having chartbuster mobile applications. We, backed by a pool of talented geeks, who constantly learn and update themselves from the latest trends of technology and tools in order to build a robust mobile-first experience.</p>
@@ -97,6 +97,7 @@ export default withRouter(class Index extends Component {
                             <p>Our Top Mobile App Development services allow businesses to not only keep connected with their customers on devices but also have a comprehensive insight of KPIs for making great decisions. With Paul, gain the business intelligence in real-time for better management of the workforce & augmented the user experience.</p>
                             <p>Being a renowned Mobile app Development Company in India & in several nations covering USA, Canada, Australia, UAE etc, we always focus on improving and enhancing our processes with a blend of the unique composition of highly skilled Mobile App Developers, Market Researchers and Business Analyst that put their efforts and brains to make your app idea stand tall in the market of billion of apps.</p>
                             </div>
+                            </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
@@ -121,7 +122,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>

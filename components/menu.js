@@ -39,7 +39,15 @@ export default withRouter(class Header extends Component {
                     <div className="m-scroll navbar-start">
                     
                     <Link href="about"><a className="navbar-item">About</a></Link>
-                    <Link href="website-design"><a className="navbar-item">Website Design</a></Link>   
+                   
+                    <div className="navbar-item has-dropdown is-hoverable">
+                        <Link href="website-design"><a className="navbar-link">Website Design</a></Link>
+                            <div className="navbar-dropdown">
+                                <Link href="paid-search"><a className="navbar-item">Paid Search</a></Link>
+                                <Link href="seo"><a className="navbar-item">Seo</a></Link>
+                                <Link href="website-hosting"><a className="navbar-item">Website Hosting</a></Link>                             
+                            </div>
+                    </div>  
                     <div className="navbar-item has-dropdown is-hoverable">
                         <Link href="services"><a className="navbar-link">Services</a></Link>
                         <div className="navbar-dropdown">
@@ -140,7 +148,9 @@ export default withRouter(class Header extends Component {
                             <Link href="#"><a className="navbar-item">Restaurant App</a></Link>
                         </div>
                     </div> */}
+                    
                     <Link href="portfolio"><a className="navbar-item">Portfolio</a></Link>
+                    <Link href="case-studies"><a className="navbar-item">Case Studies </a></Link>
                     <Link href="prices"><a className="navbar-item">Prices</a></Link>
                     <Link href="hire-dedicated-app-developers"><a className="navbar-item">Hire Us</a></Link>
                     </div>

@@ -1,18 +1,16 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
 import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default withRouter(class Index extends Component {
 
@@ -83,13 +81,17 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/html-dev.svg" alt="i"/> </div>
-                            <h4>Hybrid App Development Company</h4>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
+                        <h4>Hybrid App Development Company</h4>
+                        </ScrollAnimation>
+                            
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>Invade the Mobile World with Top-Notch Hybrid App Development.</h4>
                             
@@ -105,6 +107,7 @@ export default withRouter(class Index extends Component {
 
 
                             </div>
+                            </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
@@ -126,7 +129,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                 <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
-                                        <img src="../static/images/icons/png/hybird-lvl1-dev.png" alt="i"/>
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
+                                            <img src="../static/images/icons/png/hybird-lvl1-dev.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>Let Our Hybrid App Development Services Smoothen Your Path</h4>
@@ -139,7 +144,10 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/hybird-lvl2-dev.png" alt="i"/>
+                                        </ScrollAnimation>
+                                        
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>Clout the Perks of Hybrid App Development Services</h4>
@@ -150,7 +158,12 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                                 <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-dev-01.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/hybird-dev-01.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                    
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Seamless Integration</h5>
                                                     <p>Our hybrid app developers remain aligned with the latest trends & technologies and always deliver an outstanding blend of technicality & Excellency. This seamless integration powers apps to work flawlessly with distinct devices like iOS, Android, Desktop, Laptop & others to provide the great user experience.</p>
@@ -159,7 +172,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-lvl2-dev-02.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/hybird-lvl2-dev-02.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Maximum Code-Reusability</h5>
                                                     <p>We perform cross-platform app development process using a single code base with maximum code reuse between supported platforms.</p>
@@ -168,7 +185,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-lvl2-dev-03.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/hybird-lvl2-dev-03.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Platform-specific Features</h5>
                                                     <p>Paul performs Cross-platform app development in an efficient way so that the developed apps leverage touch, gesture and native look and feel that takes advantage of platform-specific features.</p>
@@ -177,7 +198,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-lvl2-dev-04.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/hybird-lvl2-dev-04.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Easy Maintainable</h5>
                                                     <p>As cross-platform, apps are easy to maintain & deploy changes when an application is running across the platforms; Paul is the only place to ensure that apps perform brilliantly daily.</p>
@@ -192,7 +217,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/hybird-lvl3-dev.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>Our Agile Hybrid App Development Route Yield Chronic Effect</h4>
@@ -203,7 +230,11 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/android-dev-03.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/android-dev-03.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Agile Development</h5>
                                                     <p>At Paul, we follow Agile development approach while bifurcating the projects into sprints & to ensure that everything is aligned with the project expectations, & our continuous developer-customer interaction and inter-team interactions lead to good collaborations and better results.</p>
@@ -212,7 +243,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-lvl3-dev-02.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/hybird-lvl3-dev-02.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Higher Productivity</h5>
                                                     <p>To unlock the higher productivity rate, our team of hybrid app developers adhere agile roadmap and build apps into sprints with the competency to deliver apps with minimum features & functionality. We continually keep adding into the features so that users can access new features on regular basis.</p>
@@ -221,7 +256,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-lvl3-dev-04.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/hybird-lvl3-dev-04.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Quick to Market</h5>
                                                     <p>Our Agile process expedites the cross-platform app development process and speedup the timeframe to deploy services in the market. With the power to handle uncertainty more efficiently, Paul is the best one to go with.</p>
@@ -236,7 +275,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/hybird-lvl4-dev.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>Hire Our Dedicated Team of Hybrid App Developers</h4>
@@ -247,7 +288,11 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-lvl4-dev-01.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/hybird-lvl4-dev-01.png" alt="i"/>
+                                                    </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Customer Centric model</h5>
                                                     <p>We possess client-centric model and avail a smooth, Interactive & hassle free communication process in our cross-platform mobile app development process so that our all deals with global clients can go as a cakewalk. The client shares their idea and has meetings with the required intellectuals frequently.</p>
@@ -256,7 +301,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-lvl4-dev-02.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/hybird-lvl4-dev-02.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>End-to-End Solution</h5>
                                                     <p>State-of-the-art infrastructure puts Paul ahead from many rivals. Being a best hybrid mobile app development company, we are adorned with a technically rich in-house team that keep a focused eye on every phase of hybrid app development including- Research & Development, design, coding, testing & marketing.</p>
@@ -265,7 +314,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/hybird-lvl4-dev-03.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/hybird-lvl4-dev-03.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Experienced Professional</h5>
                                                     <p>Backed with the hands full of talented geeks, we left no stone unturned in making our client an elated client. Our skilled & qualified hybrid app developers work on challenging projects of clients and always deliver beyond the expectations with highly interactive & impressive UI/UX.</p> 
@@ -278,15 +331,6 @@ export default withRouter(class Index extends Component {
                             </div>
                         </div>
 
-
-
-
-
-
-
-
-
-
                         <div className="page-cnt-tab">
                             <section className="startup-sec py-5">
                             <div className="container">
@@ -297,7 +341,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>

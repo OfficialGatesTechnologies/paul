@@ -1,19 +1,16 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
 import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 export default withRouter(class Index extends Component {
 
     constructor(props) {
@@ -69,19 +66,23 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/html-dev.svg" alt="i"/> </div>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <h4>HTML5 App Development Company</h4>
+                        </ScrollAnimation>
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>Appealing Mobile Solutions with Feature- Ready HTML5 Web App Development</h4>
                             <p>For enhancing online presence in an increasingly mobile device-based world, HTML5 is as a latest, most advanced, & in-demand web app development platform. HTML5 not only improves the user experience & interface but also significantly improves the experience, from a development standpoint, of creating mobile web pages.</p>
                             <p>Paul is the leading HTML5 Web App Development Company, headquartered in India, specializes in rendering innovative and out-of-the-box apps that harness the potential of cutting-edge HTML5 technology. The company has been backed by a dedicated workforce of experts offering high-performance HTML5 Web App Development Services to help you to surge ahead of the competition.</p>
                             <p>We have a team of tech-savvy, possessing expertise and industry experience in various HTML5 specific tools including CSS3, JSON, XML, and JavaScript etc. to develop business-centric apps that are feature-packed, user-friendly, scalable, reliable and cost-effective.</p>
                             <p>Since our inception, we have been successfully developing applications & providing exceptional HTML5 services not only in India but also in many zones of the world including USA, UAE, Germany, and Canada.</p></div>
+                            </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
@@ -106,7 +107,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>

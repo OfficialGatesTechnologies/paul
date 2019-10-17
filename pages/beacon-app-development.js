@@ -1,19 +1,16 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
 import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 export default withRouter(class Index extends Component {
 
     constructor(props) {
@@ -87,13 +84,16 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/beacon-dev.svg" alt="i"/> </div>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <h4>Beacon App Development Company</h4>
+                        </ScrollAnimation>
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>Lets engage and serve your customer with hyper-local engagement</h4>
                             <p>In the world of technologies, we have taken beacon as the pudding in the cake as we have been observing its massive possibilities. We have invested huge amount of resources and time to know about this technology. After doing multiple experiments, we take pride to say that we have the expertise and great level of knowledge with the beacon development. Our aspiring team members have the proficiency in handling with this extreme technology.</p>
@@ -102,6 +102,7 @@ export default withRouter(class Index extends Component {
 
                             <p>Paul is a promising name in today’s highly competitive era offering some of the high end app development services to the world. Our enthusiastic and highly responsive developers promise to proffer best results with their expertise and high caliber. We are the development company that has knowledge about the market movement and innovation. With our intelligent team, we ensure offering practical, superior and bespoke solution for the businesses.</p>
                             </div>
+                        </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
@@ -126,7 +127,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>

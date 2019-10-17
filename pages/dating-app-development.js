@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Win_deeds from '../components/win-deeds';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default withRouter(class Index extends Component {
 
@@ -45,12 +45,16 @@ export default withRouter(class Index extends Component {
                       alt="i"
                     />{" "}
                   </div>
-                  <h4>Dating App Development Company</h4>
+                  <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
+                      <h4>Dating App Development Company</h4> 
+                  </ScrollAnimation>
+                  
                 </div>
               </div>
 
               <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                 <div className="page-main-cnt pb-5 pb-m-2">
+                <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                   <div className="container">
                     <h4>
                     We Have Expertise In Building A Wide Range Of Mobility Solutions For Dating.
@@ -71,15 +75,19 @@ export default withRouter(class Index extends Component {
                     If you are planning to harness the power of mobile application to develop your own dating mobile app, then undeniably you have landed on right place. We are backed with the pool of talented developers and designers. We add technology to your app idea and to provide a comprehensive suite of mobility solutions & services.
                     </p>
                   </div>
+                  </ScrollAnimation>
                 </div>
                 {/* Work Case study section */}
                 <div className="banner-carousel work-carousel inner-work">
                   <div className="container">
                     <div className="banner-items columns">
                       <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-two-fifths-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                         <img src="../static/images/others/rehmie-mob-iot.png" />
+                      </ScrollAnimation>
                       </div>
                       <div className="banner-txt our-work-txt column has-text-centered-mobile">
+                      <ScrollAnimation animateIn="slideInRight" initiallyVisible={false} animateOnce ="true">
                         <div className="o-wk-logo">
                           <div className="o-wk-logo-img">
                             <img src="../static/images/others/work-logo-01.png" />
@@ -132,6 +140,7 @@ export default withRouter(class Index extends Component {
                           </span>
                           <p>Dating</p>
                         </div>
+                        </ScrollAnimation>
                       </div>
                     </div>
                   </div>
@@ -144,38 +153,54 @@ export default withRouter(class Index extends Component {
                   <div className="container">
                     <div className="mx-1000">
                       <div className="sec-ttl has-text-centered">
+                      <ScrollAnimation animateIn="fadeInRight" initiallyVisible={false} animateOnce ="true">
                         <h1 className="ttl-head">
                         Dating App Development Features
                         </h1>
                         <p className="ttl-p mx-610">
                         Online dating industry has gained huge popularity as the demand for the top dating apps among adults is increasing rapidly, some best features that our dating app carries.
                         </p>
+                        </ScrollAnimation>
                       </div>
                       <div className="com-res py-5 py-m-3 pb-0">
                         <div className="columns is-multiline">
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Allow Interested one, Nearby</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Verification of Identity</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Check User’s Picture</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Privacy</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Chat Or Messages</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Real-Time Notification</h5>
+                          </ScrollAnimation>
                           </div>
                         </div>
                         <div className="columns is-mobile is-centered">
                         <div className="bg-color-theme">
-                        <a className="theme-color ban-theme-btn" href="#">View Our Work</a>
-                        <a className="theme-color ban-theme-btn" href="#">Contact Us</a>
+                        <ScrollAnimation animateIn="tada" initiallyVisible={false} animateOnce ="true">
+                          <a className="theme-color ban-theme-btn" href="#">View Our Work</a>
+                          <a className="theme-color ban-theme-btn" href="#">Contact Us</a>
+                        </ScrollAnimation>
                         </div>
                         
                         </div>

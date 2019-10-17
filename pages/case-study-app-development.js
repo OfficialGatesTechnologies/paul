@@ -1,11 +1,10 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-
 import AliceCarousel from 'react-alice-carousel';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default withRouter(class Index extends Component {
   
@@ -34,7 +33,7 @@ export default withRouter(class Index extends Component {
           <div>
             <Head>
               <meta charSet="utf-8" />
-              <title>{site_name} | Case Study of Game App</title>
+              <title>{site_name} | Case Study of App</title>
               <meta name="distribution" content="Global" />
               <meta name="revisit-after" content="1 days" />
               <meta
@@ -49,19 +48,22 @@ export default withRouter(class Index extends Component {
 
             <div className="main-wrap">
               <div className="inner-banner case-study-bg has-text-centered" style={{ backgroundImage: `url("../static/images/others/case-st-page-top.jpg")` }}>
+              
                 <div className="inner-banner-cnt pos-inner-gradi">
-                  {/* <div className="circle-ripple">
-                    <img
-                      src="../static/images/icons/soc-icon-inner-top.svg"
-                      alt="i"
-                    />{" "}
-                  </div> */}
-                  <h4>Case Study of <span className="has-text-weight-light">Shopping App</span> </h4>
+                               
+                      <h4>
+                      <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
+                        Case Study of <span className="has-text-weight-light">Rehmie Shopping App</span>
+                      </ScrollAnimation>
+                       </h4>
+                                   
                 </div>
+              
               </div>
 
               <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                 <div className="page-main-cnt pb-5 pb-m-2 font-md">
+                <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                   <div className="container lg-tilte">
                     <h4>
                     Introductory
@@ -70,6 +72,7 @@ export default withRouter(class Index extends Component {
                     Get your brain exercised with Baranoy where several categories are available that throws number of questions on you and you have to find the right one. If, you have a high surety for the correct than you are let to choose the highest bid available there to increase your point which you will be able to redeem in your next quiz. There are different levels available to train your brain to work faster.
                     </p>
                   </div>
+                  </ScrollAnimation>
                 </div>
                 <div className="client-case-study">
                   <div className="container lg-tilte">
@@ -81,25 +84,39 @@ export default withRouter(class Index extends Component {
                     <div className="com-res mg-t-20">
                         <div className="columns is-multiline">
                             <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true"> 
                                 <h5>Attract the Market Audience</h5>
+                                </ScrollAnimation>
                             </div>
                             <div className="column is-full-mobile is-4-tablet is-4-desktop">
+                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true"> 
                                 <h5>Live Tracking</h5>
+                            </ScrollAnimation>
                             </div>
                             <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true"> 
                                 <h5>Re - Order services opted in past.</h5>
+                            </ScrollAnimation>
                             </div>
                             <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true"> 
                                 <h5>Multiple restaurant in a single order.</h5>
+                            </ScrollAnimation>
                             </div>
                             <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true"> 
                                 <h5>Search based on dish, restaurants.</h5>
+                            </ScrollAnimation>
                             </div>
                             <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true"> 
                                 <h5>Application useful for Small shops/ restaurants.</h5>
+                            </ScrollAnimation>
                             </div>
                             <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                            <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true"> 
                                 <h5>Rating & Reviews for the services.</h5>
+                            </ScrollAnimation>
                             </div>
                         </div>
                     </div>
@@ -112,17 +129,22 @@ export default withRouter(class Index extends Component {
                   <div className="container">
                     <div className="banner-items columns">
                       <div className="banner-img column has-text-centered-mobile is-full-mobile ">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true"> 
                         <div className="w-min-app-img-first">
-                        <img src="../static/images/others/1-min-app.png" />
+                        
+                             <img src="../static/images/others/1-min-app.png" />
+                       
                         </div>
                         <div className="w-min-app-pos">
                       
                         <img src="../static/images/others/2-min-app.png" />
                       </div>
-                        
+                      </ScrollAnimation>
                       </div>
                       
                       <div className="banner-txt our-work-txt column has-text-centered-mobile">
+                      <ScrollAnimation animateIn="slideInRight" initiallyVisible={false} animateOnce ="true"> 
+                        
                         <div className="lg-tilte">
                         <h4>PROJECT CHALLENGE</h4>
                         </div>
@@ -134,7 +156,7 @@ export default withRouter(class Index extends Component {
                         <div className="d-block bg-round-box has-text-centered-mobile">
                             <img src="../static/images/others/work-logo-01.png" />
                          </div>
-                       
+                         </ScrollAnimation>
                       </div>
                     </div>
                   </div>
@@ -148,6 +170,8 @@ export default withRouter(class Index extends Component {
                       
                       <div className="banner-txt our-work-txt column has-text-centered-mobile">
                         <div className="how-solive-txt">
+                      <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true"> 
+
                         <div className="lg-tilte">
                         <h4>HOW WE SOLVE?</h4>
                         </div>
@@ -171,14 +195,16 @@ export default withRouter(class Index extends Component {
                           </div>
                           
                         </div>
-                        
+                        </ScrollAnimation>
                         </div>
                         
                        
                       </div>
                       <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-one-fifths-desktop">
                         <div className="w-min-app-img-first1 has-text-centered-mobile">
-                        <img src="../static/images/others/how-solve-img.png" />
+                      <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true"> 
+                          <img src="../static/images/others/how-solve-img.png" />
+                      </ScrollAnimation>
                         </div>
                         
                         
@@ -218,6 +244,8 @@ export default withRouter(class Index extends Component {
                   <div className="columns is-gapless">
                   <div className="column has-text-centered-mobile bg-light-low is-full-mobile is-half-tablet">
                   <section className="startup-sec py-5">
+                  <ScrollAnimation animateIn="slideInLeft" initiallyVisible={false} animateOnce ="true"> 
+
                   <div className="sec-ttl testimonial-ttl has-text-centered">
                         <h1 className="ttl-head has-text-black">MORE CASE STUDIES</h1>
                     </div>
@@ -249,11 +277,12 @@ export default withRouter(class Index extends Component {
                         </AliceCarousel>
                     </div>
                     </div>
-
+                    </ScrollAnimation>
                 </section>
                   </div>
                       <div className="column has-text-centered-mobile is-full-mobile is-half-tablet">
                       <section className="startup-sec testimonials1 bg-secound-light-color py-5">
+                      <ScrollAnimation animateIn="slideInRight" initiallyVisible={false} animateOnce ="true"> 
                     <div className="sec-ttl testimonial-ttl has-text-centered">
                         <h1 className="ttl-head">CLIENT REVIEWS</h1>
                     </div>
@@ -295,6 +324,7 @@ constant communication in order to have your idea being put into a concrete work
                         </div>
 
                     </div>
+                    </ScrollAnimation>
                 </section>
                       </div>
                     </div>

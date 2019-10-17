@@ -9,7 +9,7 @@ import { withRouter } from 'next/router';
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default withRouter(class Index extends Component {
 
@@ -89,13 +89,18 @@ export default withRouter(class Index extends Component {
                       alt="i"
                     />{" "}
                   </div>
-                  <h4>Hire Dedicated App Developers</h4>
+                  <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
+                    <h4>Hire Dedicated App Developers</h4>  
+                  </ScrollAnimation>
+                  
                 </div>
               </div>
 
               <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                 <div className="page-main-cnt pb-5 pb-m-2">
+                
                   <div className="container">
+                  <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                     <h4>
                     We Will Drive Your Success Meter Up. Hire Our Dedicated App Developers
                     </h4>
@@ -109,6 +114,8 @@ export default withRouter(class Index extends Component {
                     <p>
                     Our designated cost-effective & flexible hiring model gives our customer a competency that they can directly communicate with the dedicated app developers, can oversee the entire process & progress and can assign work directly to them.
                     </p>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                     <div className="hire-cont">
                       <h4>
                       Hire Dedicated Mobile App Developers to Boost Up your Mobile App Development Process
@@ -118,15 +125,33 @@ export default withRouter(class Index extends Component {
                       <b>Our Android App Development Services included:</b>
                       <div className="com-res mg-t-20 mb-b-20">
                       <div className="columns is-multiline">
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>Android App Development in Java</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>Android App Development in Kotlin</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>Android SmartWatch App Development</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>Android App Support & Maintenance</h5></div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>Android App Development in Java</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>Android App Development in Kotlin</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>Android SmartWatch App Development</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>Android App Support & Maintenance</h5>
+                      </ScrollAnimation>
+                        </div>
                       </div>
                       
                       </div>
                      
                     </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                     <div className="hire-cont">
                       
                       <h5 className="sub-title">Hire iPhone App Developers</h5>
@@ -134,15 +159,33 @@ export default withRouter(class Index extends Component {
                       <b>Our iPhone App Development Services lined-up with:</b>
                       <div className="com-res mg-t-20 mb-b-20">
                       <div className="columns is-multiline">
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>iPhone App Development in Swift</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>iPhone App Development in Objective C</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>iWatch App Development</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>iPhone App Maintenance & Support</h5></div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>iPhone App Development in Swift</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>iPhone App Development in Objective C</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>iWatch App Development</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>iPhone App Maintenance & Support</h5>
+                      </ScrollAnimation>
+                        </div>
                       </div>
                       
                       </div>
                      
                     </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                     <div className="hire-cont">
                       
                       <h5 className="sub-title">Hire Web Developers</h5>
@@ -150,15 +193,33 @@ export default withRouter(class Index extends Component {
                       <b>Our wide range of Web Development Services included:</b>
                       <div className="com-res mg-t-20 mb-b-20">
                       <div className="columns is-multiline">
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>PHP Web Development</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>CMS Development</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>NodeJS Web Development</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>AngularJS Web Development</h5></div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>PHP Web Development</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>CMS Development</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>NodeJS Web Development</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>AngularJS Web Development</h5>
+                        </ScrollAnimation>
+                        </div>
                       </div>
                       
                       </div>
                      
                     </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                     <div className="hire-cont">
                       
                       <h5 className="sub-title">Hire UI/UX Designers</h5>
@@ -166,16 +227,33 @@ export default withRouter(class Index extends Component {
                       <b>Our bags full of creativity allinged up with:</b>
                       <div className="com-res mg-t-20 mb-b-20">
                       <div className="columns is-multiline">
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>Conceptualization & Branding</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>Prototyping</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>High-Fidelity Wireframes</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>UI/UX Designing</h5></div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>Conceptualization & Branding</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>Prototyping</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>High-Fidelity Wireframes</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>UI/UX Designing</h5>
+                      </ScrollAnimation>
+                        </div>
                       </div>
                       
                       </div>
                      
                     </div>
-
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                     <div className="hire-cont">
                       
                       <h5 className="sub-title">We Are In Top Mobile App Development Company For Reasons</h5>
@@ -183,21 +261,59 @@ export default withRouter(class Index extends Component {
                       <b>Our bags full of creativity allinged up with:</b>
                       <div className="com-res mg-t-20 mb-b-20">
                       <div className="columns is-multiline">
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>Flexible Engagement Models</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>7+ Years Industry Experience</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>120+ Mobile Apps Developed</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>60+ Skilled Team Members</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>Fanatic of Agile Process</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>Highly Transactional UI/UX</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>Dedicated Teams Structure</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>Firm Delivery Timelines</h5></div>
-                      <div className="column is-full-mobile is-6-tablet is-6-desktop"><h5>Data Security and Integrity</h5></div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>Flexible Engagement Models</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>7+ Years Industry Experience</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>120+ Mobile Apps Developed</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>60+ Skilled Team Members</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>Fanatic of Agile Process</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>Highly Transactional UI/UX</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>Dedicated Teams Structure</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>Firm Delivery Timelines</h5>
+                      </ScrollAnimation>
+                        </div>
+                      <div className="column is-full-mobile is-6-tablet is-6-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
+                        <h5>Data Security and Integrity</h5>
+                      </ScrollAnimation>
+                        </div>
                       </div>
                       
                       </div>
                      
                     </div>
+                    </ScrollAnimation>
                   </div>
+                 
                 </div>
                 {/* Work Case study section */}
                 
@@ -212,9 +328,10 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
-                                    <Tabs items={this.getTabs()} />
-                                    {/* <a className="theme-color ban-theme-btn" href="#">View Our Work</a>
-                                    <a className="theme-color ban-theme-btn" href="#">Contact Us</a> */}
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
+                                  <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
+                                  
                                 </div>
                                 </div>
                             </div>

@@ -5,7 +5,7 @@ import Win_deeds from '../components/win-deeds';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
 import Link from 'next/link'
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default withRouter(class Index extends Component {
 
@@ -46,12 +46,16 @@ export default withRouter(class Index extends Component {
                       alt="i"
                     />{" "}
                   </div>
+                  <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                   <h4>Internet of Things App Development</h4>
+                  </ScrollAnimation>
+                  
                 </div>
               </div>
 
               <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                 <div className="page-main-cnt pb-5 pb-m-2">
+                <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                   <div className="container">
                     <h4>
                       Devices Communicate With Each Other Via Our
@@ -105,15 +109,19 @@ export default withRouter(class Index extends Component {
                       app.
                     </p>
                   </div>
+                  </ScrollAnimation>
                 </div>
                 {/* Work Case study section */}
                 <div className="banner-carousel work-carousel inner-work">
                   <div className="container">
                     <div className="banner-items columns">
                       <div className="banner-img column has-text-centered-mobile is-full-mobile is-half-tablet is-two-fifths-desktop">
+                      <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                         <img src="../static/images/others/rehmie-mob-iot.png" />
+                      </ScrollAnimation>
                       </div>
                       <div className="banner-txt our-work-txt column has-text-centered-mobile">
+                      <ScrollAnimation animateIn="slideInRight" initiallyVisible={false} animateOnce ="true">
                         <div className="o-wk-logo">
                           <div className="o-wk-logo-img">
                             <img src="../static/images/others/work-logo-01.png" />
@@ -166,6 +174,7 @@ export default withRouter(class Index extends Component {
                           </span>
                           <p>IoT</p>
                         </div>
+                        </ScrollAnimation>
                       </div>
                     </div>
                   </div>
@@ -178,6 +187,7 @@ export default withRouter(class Index extends Component {
                   <div className="container">
                     <div className="mx-1000">
                       <div className="sec-ttl has-text-centered">
+                      <ScrollAnimation animateIn="fadeInRight" initiallyVisible={false} animateOnce ="true">
                         <h1 className="ttl-head">
                           Internet of Things App Development Features
                         </h1>
@@ -186,29 +196,42 @@ export default withRouter(class Index extends Component {
                           aim for scalability, security and reliability
                           by offering some important features like...
                         </p>
+                        </ScrollAnimation>
                       </div>
                       <div className="com-res py-5 py-m-3 pb-0">
                         <div className="columns is-multiline">
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Real-Time analytics</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Device Connectivity</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Remote Device management</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Scalable Cloud Infrastructure</h5>
+                          </ScrollAnimation>
                           </div>
                           <div className="column is-full-mobile is-6-tablet is-4-desktop">
+                          <ScrollAnimation animateIn="flipInX" initiallyVisible={false} animateOnce ="true">
                             <h5>Developer Portal</h5>
+                          </ScrollAnimation>
                           </div>
                         </div>
                         <div className="columns is-mobile is-centered">
                         <div className="bg-color-theme">
-                        <a className="theme-color ban-theme-btn" href="#">View Our Work</a>
-                        <a className="theme-color ban-theme-btn" href="#">Contact Us</a>
+                        <ScrollAnimation animateIn="tada" initiallyVisible={false} animateOnce ="true">
+                            <a className="theme-color ban-theme-btn" href="#">View Our Work</a>
+                            <a className="theme-color ban-theme-btn" href="#">Contact Us</a>
+                        </ScrollAnimation>
                         </div>
                         
                         </div>

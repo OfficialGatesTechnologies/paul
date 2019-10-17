@@ -556,3 +556,31 @@
     /* padding: 0 0 1.6em 14px; */
     line-height: 1.6em;
   }
+  @media(max-width: 768px){
+    .pricing{
+        display: block;
+    }
+  }
+
+  .map-sec{
+      position: relative;
+      height: 500px;
+      width: 100%;
+  }
+  .hightlight-a{
+    font-weight: 700;
+    border-bottom: solid 3px  rgba(92,131,227,1) ;
+    color: #394161;
+    font-size: 20px;
+  }
+  .text-danger{
+       color: #cc8383;
+  }
+  .text-green{
+      color:#77da55 !important;
+  }
+  .sml-txt{
+      font-weight: 100;
+      font-size: 18px;
+      text-transform: capitalize;
+  }

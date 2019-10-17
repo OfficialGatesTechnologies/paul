@@ -1,19 +1,16 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
 import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 export default withRouter(class Index extends Component {
 
     constructor(props) {
@@ -83,19 +80,23 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/web-dev.svg" alt="i"/> </div>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <h4>Full-fledged Web Development Services</h4>
+                        </ScrollAnimation>
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>Sense an Extensive Presence with Our Web Development Services</h4>
                             <p>Technology, creativity & reliability are threaded together to extract the best web development services from scratch for startups, enterprises & entrepreneurs with our customer-first approach.</p>
                             <p>In the world where everyone expect nothing less than perfection, Paul come up with the extensive web development services that marks a flawless web presence to build a brand image of enterprises and extract the best of business opportunism from online ecosystem.</p>
                             <p>Paul does the promise to their end users that no business will experience solitude in the internet-rife world. Using perfect blend of technologies including PHP, Web 2.0, HTML, Joomla, WordPress, Drupal, Magento & expertise of database languages such as MySQL, HTML, CSS, JavaScript, PHP Code, we develop the terrific & bespoke web apps. Our tech-geeks left no stone unturned in developing best out of best and their pervasive insight in web app development's technologies has earned us many success stories of web development projects with diverse needs & challenges.</p>
                             </div>
+                        </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
@@ -117,7 +118,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/php-dev.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>Custom PHP Development</h4>
@@ -128,7 +131,11 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                                 <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/php-dev-01.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/php-dev-01.png" alt="i"/>
+                                                    </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Zend</h5>
                                                     <p>Highly spotted Zend framework empowers developers to create corporate-friendly, error-free, simple PHP/MYSQL codes that are engineered to perform.</p>
@@ -137,7 +144,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/php-dev-02.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/php-dev-02.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Laravel</h5>
                                                     <p>Rich PHP framework Laravel empowers many modern websites, as it is capable of offering appropriate shortcuts, tools & components for web projects.</p>
@@ -146,7 +157,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/php-dev-03.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/php-dev-03.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Cake PHP</h5>
                                                     <p>Being a surpass web development framework, CakePHP develops & integrates websites & web apps swiftly with few sets of configuration.</p>
@@ -155,7 +170,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/php-dev-04.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/php-dev-04.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>CodeIgniter</h5>
                                                     <p>Unlock the power of Codeigniter development framework to take on web-based challenges of diverse scopes & complexities seamlessly & successfully.</p>
@@ -164,7 +183,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/php-dev-05.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/php-dev-05.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Yii</h5>
                                                     <p>YII framework is an open-source framework that leverages the power of PHP to write object-oriented web apps that will be ready to deliver true value to user.</p>
@@ -179,7 +202,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/cms-dev.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>CMS Development via PHP</h4>
@@ -190,7 +215,11 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/cms-dev-01.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/cms-dev-01.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Magento</h5>
                                                     <p>Magento, a feature-rich Ecommerce open source platform and the leading provider of Omni channel innovation addresses bugs accurately and allows business to receive more with more sales and improved ROI.</p>
@@ -199,7 +228,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/cms-dev-02.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/cms-dev-02.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>WordPress</h5>
                                                     <p>WordPress, is an open-source CMS platforms that streamlines everything right from content repositories to digital experience management with unmatched efficiency.</p>
@@ -208,7 +241,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/cms-dev-03.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/cms-dev-03.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Joomla</h5>
                                                     <p>Being a feature-packed CMS, Joomla re-imagines what all a developer can do with PHP & object-oriented programming paradigms.</p>
@@ -217,7 +254,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/cms-dev-04.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/cms-dev-04.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Drupal</h5>
                                                     <p>Drupal is a power-packed, enterprise-class open source Content Management System designed for brisk & agile deployment.</p>
@@ -232,7 +273,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                 <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/angular-dev.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>Angular JS Development</h4>
@@ -245,7 +288,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                 <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/node-dev.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>NodeJS Development</h4>
@@ -258,7 +303,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
+                                        <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
                                         <img src="../static/images/icons/png/o-web-dev.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>Our Web Development Route:</h4>
@@ -269,7 +316,11 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                                <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/o-web-dev-01.png" alt="i"/></div>
+                                                <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/o-web-dev-01.png" alt="i"/>
+                                                    </ScrollAnimation>
+                                                    </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Evaluation</h5>
                                                     <p>We, professionally analyze required working threads for business & startups, and then uncover all the loopholes that are needed to be covered with our pin-point assessment.</p>
@@ -278,7 +329,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/o-web-dev-02.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/o-web-dev-02.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Design & Development</h5>
                                                     <p>After performing an in-depth evolution, our web developers & designers craft a blueprint for online business, and leave no rock unturned in optimizing the designing & development.</p>
@@ -287,7 +342,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/o-web-dev-03.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/o-web-dev-03.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Front-End Development</h5>
                                                     <p>To make sure that the web app is working with a pace across diverse platforms; our web app developers employ the pioneering front-end coding level. The code, which we implement, supports diverse range of devices.</p>
@@ -296,7 +355,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/o-web-dev-04.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/o-web-dev-04.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                 <h5>Back- End CMS Development</h5>
                                                     <p>To make easy management & updating process, we deploy the effective CMS development & back-end coding process and build secure platforms that keep the data shared between user & business protected.</p>
@@ -309,15 +372,6 @@ export default withRouter(class Index extends Component {
                             </div>
                         </div>
 
-
-
-
-
-
-
-
-
-
                         <div className="page-cnt-tab">
                             <section className="startup-sec py-5">
                             <div className="container">
@@ -328,7 +382,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>

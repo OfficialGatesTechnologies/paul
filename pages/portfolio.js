@@ -6,7 +6,7 @@ import { withRouter } from 'next/router';
 import Link from 'next/link'
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default withRouter(class Index extends Component {
 
@@ -51,17 +51,7 @@ export default withRouter(class Index extends Component {
             </Head>
 
             <div className="main-wrap">
-              {/* <div className="inner-banner has-text-centered">
-                <div className="inner-banner-cnt">
-                  <div className="circle-ripple">
-                    <img
-                      src="../static/images/icons/iot-icon-inner-top.svg"
-                      alt="i"
-                    />{" "}
-                  </div>
-                  <h4>Internet of Things App Development</h4>
-                </div>
-              </div> */}
+              
 <div className="left-blogs-sec">
 
   <div className="as-text-centered">
@@ -77,6 +67,7 @@ export default withRouter(class Index extends Component {
                                 <h4 className="mg-t-10 mg-b-20">EXPLORE RECENT WORKS</h4>
                                 <p className="light-gray-cus">We’re constantly refining our product. Adding new features. Working to help your section business grow.</p>
                               </div>
+                              <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <div className="card blog-box port-box-con">
                                 <div className="card-image">
                                 <figure className="image is-4by3" style={{backgroundImage: 'url("../static/images/others/works01.png"'}}>
@@ -91,6 +82,8 @@ export default withRouter(class Index extends Component {
                                 
                                 </div>
                                 </div>
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                                 <div className="card blog-box port-box-con">
                                 <div className="card-image">
                                 <figure className="image is-4by3" style={{backgroundImage: 'url("../static/images/others/works02.png"'}}>
@@ -105,6 +98,8 @@ export default withRouter(class Index extends Component {
                                 
                                 </div>
                                 </div>
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                                 <div className="card blog-box port-box-con">
                                 <div className="card-image">
                                 <figure className="image is-4by3" style={{backgroundImage: 'url("../static/images/others/works06.png"'}}>
@@ -119,8 +114,10 @@ export default withRouter(class Index extends Component {
                                 
                                 </div>
                                 </div>
+                                </ScrollAnimation>
                             </div>
                             <div className="column is-6-desktop is-half-tablet">
+                            <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <div className="card blog-box port-box-con">
                                 <div className="card-image">
                                 <figure className="image is-4by3" style={{backgroundImage: 'url("../static/images/others/works04.png"'}}>
@@ -135,6 +132,8 @@ export default withRouter(class Index extends Component {
                                 
                                 </div>
                                 </div>
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <div className="card blog-box port-box-con">
                                 <div className="card-image">
                                 <figure className="image is-4by3" style={{backgroundImage: 'url("../static/images/others/works03.png"'}}>
@@ -149,7 +148,8 @@ export default withRouter(class Index extends Component {
                                 
                                 </div>
                                 </div>
-                                
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                                 <div className="card blog-box port-box-con">
                                 <div className="card-image">
                                 <figure className="image is-4by3" style={{backgroundImage: 'url("../static/images/others/works05.png"'}}>
@@ -164,6 +164,7 @@ export default withRouter(class Index extends Component {
                                 
                                 </div>
                                 </div>
+                                </ScrollAnimation>
                             </div>
                         </div>
                         

@@ -99,8 +99,8 @@ export default withRouter(class Index extends Component {
                                 <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                 <span className="pricing-list-feature">Social media links</span></li>
                               </ul>
-                              <div class="con-frm-btn has-text-centered pricing-action">
-                                    <Link href="contact"><a class="theme-color ban-theme-btn" href="">Contact Me Now</a></Link>
+                              <div className="con-frm-btn has-text-centered pricing-action">
+                                    <Link href="contact"><a className="theme-color ban-theme-btn">Contact Me Now</a></Link>
                                 </div>
                               
                             </div>
@@ -184,8 +184,8 @@ export default withRouter(class Index extends Component {
                                       <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                       <span className="pricing-list-feature">Google Map embedded into contact page</span></li>
                                     </ul>
-                                    <div class="con-frm-btn has-text-centered pricing-action">
-                                          <Link href="contact"><a class="theme-color ban-theme-btn" href="">Contact Me Now</a></Link>
+                                    <div className="con-frm-btn has-text-centered pricing-action">
+                                          <Link href="contact"><a className="theme-color ban-theme-btn">Contact Me Now</a></Link>
                                       </div>
                                      
                                   </div>
@@ -284,8 +284,8 @@ export default withRouter(class Index extends Component {
                                     <span className="flex-1 mr-2 mt-4"><i className="fa fa-check"></i></span>
                                     <span className="pricing-list-feature">Google page indexing</span></li>
                                   </ul>
-                                  <div class="con-frm-btn has-text-centered pricing-action">
-                                        <Link href="contact"><a class="theme-color ban-theme-btn" href="">Contact Me Now</a></Link>
+                                  <div className="con-frm-btn has-text-centered pricing-action">
+                                        <Link href="contact"><a className="theme-color ban-theme-btn">Contact Me Now</a></Link>
                                     </div>
                                   
                                 </div>

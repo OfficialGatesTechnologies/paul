@@ -1,15 +1,13 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
 import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
+import ScrollAnimation from 'react-animate-on-scroll';
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
@@ -88,13 +86,16 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/android-app-dev.svg" alt="i"/> </div>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <h4>Certified Android App Development Company</h4>
+                        </ScrollAnimation>
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>Assisted 100+ brands and startups to digitalize the business</h4>
                             <p>Android is the most widely used OS in Smartphones, It almost covered 70% of the market, the reason of being getting a market leader in the Operating System because it is open source and backed by Google. Since it captures the large market of Mobile Devices, Android has become the first choice for Entrepreneurs and Business to launch their Android Applications.</p>
@@ -103,13 +104,16 @@ export default withRouter(class Index extends Component {
                             <p>Our Certified Android App Development team with canny Android App Developers, business analysts, market researchers is always stayed up to date with latest technological advancement in the field of Android so that their applications have an edge of latest frameworks and technology. We are addicted to Java, Kotlin, XML, Android Software Development Kit APIs, Android Native Development Kit.</p>
                             <p>Being a renowned Android App Development Company in India, with Paul create a robust & reliable Android app experience in today's mobile-first world. Our developed android app leverages the platform's high flexibility and its inter-application capabilities to outperform the competition.</p>
                             </div>
+                            </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
                                 <div className="mx-1000">
                                 <div className="sec-ttl has-text-centered">
+                                <ScrollAnimation animateIn="fadeInRight" initiallyVisible={false} animateOnce ="true">
                                     <h1 className="ttl-head">We Are In Top Android App Development Company For Reasons</h1>
                                     <p className="ttl-p mx-610">Being an early adopter of latest technology, processes and tools, Our geeks are well versed in Programming Languages and Frameworks.</p>
+                                    </ScrollAnimation>
                                 </div>
                                 <div className="com-res py-5 py-m-3 pb-0">
                                     <Com_res/>
@@ -121,21 +125,31 @@ export default withRouter(class Index extends Component {
 
                         <div className="dev-icon-grid">
                             <div className="por-count-wrap py-5 py-m-3">
+                        <ScrollAnimation animateIn="fadeIn" initiallyVisible={false} animateOnce ="true">
+                                
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
-                                        <img src="../static/images/icons/png/an-app-dev.png" alt="i"/>
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
+                                            <img src="../static/images/icons/png/an-app-dev.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
+                                       
                                             <h4>Experience Apex Android App Development Services at Paul</h4>
                                             <p>In the world where mobile apps are playing a vital role in everyone's device, and converting long-time operative task done on few clicks, Our team excels in android mobile app development that are known to result in Android apps which are extensively famous for their bags full of productive features- vigorous code, spectacular UI/UX, Responsiveness, Scalability, and zero-bug functionality. Each app that leaves our production line is thoroughly prepared and completely tested to guarantee that it works under all system conditions, gives a wonderful user experience and involves a less corner of the Android device memory space. The experience of our Android Mobile App Development Team is what helps us achieve excellence for our clients and accelerates us to achieve more stars on our shoulders. We cherish to build...</p>
+                                          
                                         </div>
                                     </div>
                                     <div className="icon-grid-cnt-main">
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/an-app-dev-01.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/an-app-dev-01.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Apps, Users love</h5>
                                                     <p>There are over 2 million Android devices & 2.6 million Android Apps out there. Ours stand out from the crowd. We build the kind of apps that people move to their home screen. We know what users want and we know how to build apps that matter to them.</p>
@@ -144,7 +158,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/an-app-dev-02.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/an-app-dev-02.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Generating Revenue</h5>
                                                     <p>We build businesses. We build Android apps that make money. It is no happenstance the apps we have built have generated high revenue for our clients. We have assisted 100+ brands and startups to digitalize their business with the help of our Android apps.</p>
@@ -153,7 +171,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/an-app-dev-03.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                                <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                    <img src="../static/images/icons/png/an-app-dev-03.png" alt="i"/>
+                                                </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Topping the Chart</h5>
                                                     <p>We do not believe to stand with best but we believe in busting the chart with our top-class android apps. We keep this mantra as our motto and put our inner-core to make Android application development as efficient as it turns in chartbuster apps.</p>
@@ -163,12 +185,15 @@ export default withRouter(class Index extends Component {
                                         </div>
                                     </div>
                                 </div>
+                                </ScrollAnimation>
                             </div>
                             <div className="por-count-wrap py-5 py-m-3">
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
-                                        <img src="../static/images/icons/png/an-app-suc.png" alt="i"/>
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
+                                            <img src="../static/images/icons/png/an-app-suc.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>Our Android App Development Approach Takes Business to Success's Peak</h4>
@@ -179,7 +204,11 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/an-app-suc-01.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/an-app-suc-01.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Productive Development Approach</h5>
                                                     <p>Adorned with the title of top Android app Development Company, we always endorse the agile process that minimizes risk, maximizes velocity, and promotes transparency to complete all the android application development process</p>
@@ -188,7 +217,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/an-app-suc-02.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/an-app-suc-02.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>End-to-End Services</h5>
                                                     <p>Paul left no stone unturned in achieving gems & our services speak our domino effect. Our Android development services include consulting and product strategy, UX/UI design, development, testing, and technical delivery.</p>
@@ -197,7 +230,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/an-app-suc-03.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/an-app-suc-03.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Google Play Deployment</h5>
                                                     <p>In order to left no corner for bugs, we practice no-bug policy in our Android app development process and handle the app submission to the Google Play Store according to their guidelines.</p>
@@ -206,7 +243,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/an-app-suc-04.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/an-app-suc-04.png" alt="i"/>
+                                            </ScrollAnimation>
+                                            </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Maintenance & Support</h5>
                                                     <p>With the assurance that our developed android apps will work brilliantly daily, we offer cost-effective maintenance & support services on top of our Android app development services that help our client to be on top at all updates.</p>
@@ -221,7 +262,9 @@ export default withRouter(class Index extends Component {
                                 <div className="container">
                                     <div className="icon-grid-main-wrap">
                                         <div className="icon-grid-img">
-                                        <img src="../static/images/icons/png/an-app-bus.png" alt="i"/>
+                                        <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
+                                            <img src="../static/images/icons/png/an-app-bus.png" alt="i"/>
+                                        </ScrollAnimation>
                                         </div>
                                         <div className="icon-grid-cnt">
                                             <h4>Benefits of Android App Development on Business</h4>
@@ -232,7 +275,11 @@ export default withRouter(class Index extends Component {
                                         <div className="columns is-multiline">
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/an-app-bus-01.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/an-app-bus-01.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Low Investment</h5>
                                                     <p>Android App developers have free access to Android app development software kit as Android is open-source. We are expert in utilizing the competency of Android's and perform our development process that provides Perks to startups & SMEs.</p>
@@ -241,7 +288,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/an-app-bus-02.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/an-app-bus-02.png" alt="i"/>
+                                            </ScrollAnimation>
+                                            </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Easy Customization</h5>
                                                     <p>As Android is effective yet flexible and offers varied customization alternatives, our Android app developers come up with the in-built expertise to harnessing the competency of the platform and build Android apps with different functionalities.</p>
@@ -250,7 +301,11 @@ export default withRouter(class Index extends Component {
                                             </div>
                                             <div className="column is-6-tablet">
                                             <div className="icon-grid-cnt-wrap">
-                                            <div className="icon-grid-cnt-img"><img src="../static/images/icons/png/an-app-bus-03.png" alt="i"/></div>
+                                            <div className="icon-grid-cnt-img">
+                                            <ScrollAnimation animateIn="wobble" initiallyVisible={false} animateOnce ="true">
+                                                <img src="../static/images/icons/png/an-app-bus-03.png" alt="i"/>
+                                            </ScrollAnimation>
+                                                </div>
                                                 <div className="icon-grid-cnt-in">
                                                     <h5>Security & Distribution</h5>
                                                     <p>Android platform is greatly characterized with the security & Distributive features & we keep our client's safety & security on priority and develop apps that can be distributed among various segments with a no-bug guarantee.</p>
@@ -262,16 +317,6 @@ export default withRouter(class Index extends Component {
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
-
-
-
-
-
                         <div className="page-cnt-tab">
                             <section className="startup-sec py-5">
                             <div className="container">
@@ -282,7 +327,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>

@@ -1,19 +1,16 @@
 
 import React, { Component } from 'react';
 import Head from 'next/head';
-import Banner from '../components/banner';
 import Com_res from '../components/com-res';
 import Win_deeds from '../components/win-deeds';
 import Our_rec from '../components/our-rec';
 import Key_indus from '../components/key-indus';
 import { site_name } from '../utils/Common';
 import { withRouter } from 'next/router';
-import Link from 'next/link'
-
 import Tabs from 'react-responsive-tabs';
 import ReactSVG from 'react-svg';
 import renderHTML from 'react-render-html';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 export default withRouter(class Index extends Component {
 
     constructor(props) {
@@ -99,13 +96,16 @@ export default withRouter(class Index extends Component {
                     
                         <div className="inner-banner-cnt">
                         <div className="circle-ripple"><img src="../static/images/icons/web-dev.svg" alt="i"/> </div>
+                        <ScrollAnimation animateIn="flipInY" initiallyVisible={false} animateOnce ="true">
                             <h4>Website Design & Web App Development</h4>
+                        </ScrollAnimation>
                         </div>
                        
                     </div>
                     
                     <div className="page-cnt-wrap py-5 py-m-3 pb-0">
                         <div className="page-main-cnt pb-5 pb-m-2">
+                        <ScrollAnimation animateIn="fadeInDown" initiallyVisible={false} animateOnce ="true">
                             <div className="container">
                             <h4>Providing Responsive, User Centric and Scalable Web Apps</h4>
                             <p>Your website is the first introduction of your business in today's digital era, Its says a lot about your business, services vision and mission. Keeping that in mind we as an experience Web Development Company always focus on building highly user engaged web solutions that are incorporated with latest web technology and match with latest SEO guidelines.</p>
@@ -113,6 +113,7 @@ export default withRouter(class Index extends Component {
                             <p>Up to date technology stack and eager to be in sync with latest development methodologies makes us a prominent choice among web development service providers. We have experienced developers for MEAN, MERN and LAMP Stack which enables us to cater diversified requirement of various business into a scalable, responsive and robust web applications.</p>
                             <p>Paul offers wide variety of technologies like Wordpress, Node JS, Angular, PHP, Zoomla, Codeigniter, Zend Framework, PHP to build front end and backend web solutions with pixel perfect designs, high responsive rate and duly tested modules that helps our client to generate more ROI and acquire new users for their businesses.</p>
                             </div>
+                        </ScrollAnimation>
                         </div>
                         <div className="startup-grid py-5 py-m-3 theme-bg">
                             <div className="container">
@@ -137,7 +138,9 @@ export default withRouter(class Index extends Component {
                             
                             <div className="mx-1000">
                                 <div className="pack-tab has-text-centered">
+                                <ScrollAnimation animateIn="bounceIn" initiallyVisible={false} animateOnce ="true">
                                     <Tabs items={this.getTabs()} />
+                                </ScrollAnimation>
                                 </div>
                                 </div>
                             </div>
